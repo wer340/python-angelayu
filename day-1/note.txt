@@ -1,4 +1,9 @@
-https://thonny.org/
+https://thonny.org/ debug code   computer how read your code
 https://replit.com/~
 
-string   print ("hello world "*"word)      python   " "  * " ???? end " for string   not exiist     ^  debug  location 
+✅first line first cide python  non space     space important in python
+string   print ("hello world\n new line "*"word)      python   " "  * " ???? end " for string   not exiist     ^  debug  location 
+if ▶input(promot) func   first run promot then cursor blinking for enetr data   wait untill come up data from user
+color code in text editor  guide you for writting correct code
+# pond sign for comment or control +/
+
