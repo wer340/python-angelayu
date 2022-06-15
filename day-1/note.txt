@@ -7,3 +7,8 @@ if ▶input(promot) func   first run promot then cursor blinking for enetr data 
 color code in text editor  guide you for writting correct code
 # pond sign for comment or control +/
 
+length   len()✅
+variable  ✔
+
+most important maake your code readble   ❌l   ✔length   under_score    user_name   cant begging with number  ❌1name
+python dont track soelling word✔
