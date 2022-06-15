@@ -1,0 +1,4 @@
+https://thonny.org/
+https://replit.com/~
+
+string   print ("hello world "*"word)      python   " "  * " ???? end " for string   not exiist     ^  debug  location 
