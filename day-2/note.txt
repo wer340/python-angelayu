@@ -23,6 +23,21 @@ exponents  **
 multiplication *
 division  /
 addition  +
-subtraction  -    
+subtraction  -
+=============
+equally important  when python read strating ward left 
 * /
-+ -      equally important  when python rea left 
++ -   
+=========
+
+7----
+bmi   body mass index  
+
+8----------
+round number
+round(8/3,2) 3 decimal place  2.67
+8//3  >type int
+8/3  > type float
+reult /=2
+painful every time   ▶print("my weight" + str(result))      str convert 
+#front of string  use    print(f"my weight {result}")   deffrent data type  
