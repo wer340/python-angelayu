@@ -40,4 +40,4 @@ round(8/3,2) 3 decimal place  2.67
 8/3  > type float
 reult /=2
 painful every time   ▶print("my weight" + str(result))      str convert 
-#front of string  use    print(f"my weight {result}")   deffrent data type  
+#front of string  use    print(f"my weight {result}")   deffrent data type roun 
