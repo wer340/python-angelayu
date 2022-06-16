@@ -1,0 +1,28 @@
+data-type
+✔string ✅integer ✅float ✔boolean
+squre bracket []
+programming first  by zero  becuse binary 
+integer large number  in maath  with split comma 123,456,343  in python  _  123_456_343
+float   3.14159have decimal place called float  for  think float move point  change   3.222 32.22  322.2 
+
+boolean
+true  false
+
+check type     print(type(var) )    casting type   int to str and ...   str(int)  int() float()  convert data type
+
++
+-
+*
+/  >  float
+
+**  expontial   2**3  =8
+OPRETION 
+PEMDS  STAND FOR 
+parentheses ()
+exponents  **
+multiplication *
+division  /
+addition  +
+subtraction  -    
+* /
++ -      equally important  when python rea left 
