@@ -1,5 +1,6 @@
 print("whether can rollercoaster ride or not??")
 height=int(input ("enter your height(cm) ? "))
+bill=0
 if height>=140:
  #nested to if   you can more elif condion
     #elif condition1 accept break althuth next condition 
@@ -8,14 +9,26 @@ if height>=140:
     if age<=12:
          message="you pay $5  "
          print(message)
+         bill+=5
     elif age<=18:
         message="you pay $7  "
         print(message)
+        bill+=7
     elif age<30:
         message="you pay $12  "
         print(message)
+        bill+=12
     else:
         message="you pay $18  "
+        print(message)
+        bill+=18
+    wants_photo=input("are you wanna photo taken($3)? Y or N ")
+    if wants_photo=="Y":
+        bill+=3
+        message=f"you total pay {bill}  "
+        print(message)
+    else:
+        message=f"you total pay {bill}  "
         print(message)
 else:
     message="you cant ride  sorry about :(("

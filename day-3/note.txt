@@ -46,4 +46,5 @@ first flowchart  after write code
 if condition1 :
 if condition2 :
 if condition3 :
-means all condtions should be pass  
+means all condtions should be pass
+global bill =0   bill+=2 == bill=bill+2 
