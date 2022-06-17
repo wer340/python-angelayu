@@ -1,0 +1,49 @@
+1---
+conditionL statement if else logical opreator cod blocks scope global
+Treasure island  game 
+
+
+2---
+if condition :
+	do this
+else:
+	do this
+>   >= greater than    <= less than   left to right
+
+== equal   !=  not equal
+=assigment
+== check equal
+
+indent so important
+draw.io   flowchart
+3----
+moudular    %    7%2  =2+2+2+1   remain result of divide  odd ==1   even==0  remain
+4---
+for extra condtion  go throught  nestad 
+
+if condition :
+	if condition :
+		do this
+	else:
+		do this
+else:
+	do this
+
+or  pattern   elif 
+
+if condition1 :
+	do a
+elif condition2 :   (if 1 fail 2 run )
+	do b 
+else:
+	do this
+
+5---
+elif  does check first condion if correct breack  although next condition
+first flowchart  after write code
+
+7---
+if condition1 :
+if condition2 :
+if condition3 :
+means all condtions should be pass  
