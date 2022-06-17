@@ -1,4 +1,4 @@
-message="
+message='''
             .--.
    : (\ ". _......_ ." /) :
     '.    `        `    .'
@@ -10,5 +10,6 @@ message="
      '._ \.' \__/ './ _.'
      /  ``'._-''-_.'``  \
     
-"
+'''
 print (message)
+input("type any word ?  ")

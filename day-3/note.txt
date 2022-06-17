@@ -48,3 +48,10 @@ if condition2 :
 if condition3 :
 means all condtions should be pass
 global bill =0   bill+=2 == bill=bill+2 
+
+9------
+logical operator and or not   & | ! 
+combine condition   condition1 & condition1  & condition1
+ascii.co.uk/art
+for  multiple line  three quote '''
+escape  char  '  or " [ \']   print('you \'re  the next team') escape  and \n  next line

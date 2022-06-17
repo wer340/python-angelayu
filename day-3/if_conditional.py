@@ -18,18 +18,25 @@ if height>=140:
         message="you pay $12  "
         print(message)
         bill+=12
+    elif age>45 and age<55: #&=and
+        bill=0
+        message=f"you total pay {bill}  "
+        print(message)
+    
     else:
         message="you pay $18  "
         print(message)
         bill+=18
-    wants_photo=input("are you wanna photo taken($3)? Y or N ")
-    if wants_photo=="Y":
+   
+    wants_photo=input("are you wanna photo taken($3)? y or n ")
+    if wants_photo=="y" :
         bill+=3
         message=f"you total pay {bill}  "
         print(message)
     else:
         message=f"you total pay {bill}  "
         print(message)
+   
 else:
     message="you cant ride  sorry about :(("
     print(message)
