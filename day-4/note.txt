@@ -1,0 +1,21 @@
+1--
+randomization
+python list
+game sisior rock paper
+2---
+random > mersenne twister algoritm
+
+https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
+**
+https://www.saratoga.com/how-should-i-know/2013/07/what-is-the-average-air-speed-velocity-of-a-laden-swallow/
+askpython.com
+https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences
+*
+import random
+
+random.randint(100,200)
+
+MODULE   this part of code   split for readable code 
+module was created that divide the large code to chunk code  and every developer work on a module
+
+same dir  touch my_module.py  then   other py file  import my_module      then uses from var fuunc my_module.py
