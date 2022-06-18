@@ -32,3 +32,8 @@ data structure  https://docs.python.org/3/tutorial/datastructures.html
 python list  that uses many many time in future 
 list   fruits=[item1,item2]  data structure    fruits[0] offset  is zero   ▶ fruits=|[item1,item2]  | >>offset    if [-1]  offset start last list
 list.append(x) add item
+5---
+https://www.askpython.com/python/string/python-convert-string-to-list  string to list
+6---
+fruits=[]  vegtable=[]
+nested list   food=[fruits,vegtable]
