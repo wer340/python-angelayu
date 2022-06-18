@@ -3,6 +3,8 @@ randomization
 python list
 game sisior rock paper
 2---
+random  eniacan machin 1945  hydrogen bomb  >  123 (seed) 121*121 = midle digit catch again multiplication then a period    if seed have meny digit   
+period longer thanas long as  thats 100 year take long a period end up   
 random > mersenne twister algoritm
 
 https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/random-vs-pseudorandom-number-generators
@@ -19,3 +21,14 @@ MODULE   this part of code   split for readable code
 module was created that divide the large code to chunk code  and every developer work on a module
 
 same dir  touch my_module.py  then   other py file  import my_module      then uses from var fuunc my_module.py
+3--------
+one of the easiest ways of getting the computer to generate some random number or random sequence is by using something called a seed 
+Something truly random to start with then they can extrapolate from that and create random number or random sequence depending on what it is that we need
+ The seed() method is used to initialize the random number generator. ✅✅By default the random number generator uses the current system time
+If you use the same seed value twice you will get the same random number twice
+seed
+4---
+data structure  https://docs.python.org/3/tutorial/datastructures.html
+python list  that uses many many time in future 
+list   fruits=[item1,item2]  data structure    fruits[0] offset  is zero   ▶ fruits=|[item1,item2]  | >>offset    if [-1]  offset start last list
+list.append(x) add item
