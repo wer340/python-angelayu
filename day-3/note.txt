@@ -15,7 +15,11 @@ else:
 == check equal
 
 indent so important
+✅✅✅✅✅✅✅
 draw.io   flowchart
+double_click  > new text
+ctrl+r rotate
+sim from box  a point before last point offset till direction left or right 
 3----
 moudular    %    7%2  =2+2+2+1   remain result of divide  odd ==1   even==0  remain
 4---
