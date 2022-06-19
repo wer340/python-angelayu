@@ -1,0 +1,17 @@
+1----
+loop
+https://haveibeenpwned.com/
+
+2----
+
+for item in list of item:   item=ilist[0]  each loop assegment to item a array
+ do something  IDENTATION IMPORTANT
+
+
+5----
+range(1,18,2) step 2     for item in range(1,10)  Guses  1,2,3,..100  
+							100,99,98,...    100*101/2=5050
+
+7---
+most qustion interview
+buzz fizzz  order important
