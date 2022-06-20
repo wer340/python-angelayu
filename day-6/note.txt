@@ -6,3 +6,12 @@ function
 2--
 https://docs.python.org/3/library/functions.html
 python built in function
+
+def   definne     function
+
+def + my_function+()+:
+
+	
+	do
+
+calling function      my_function(  )
