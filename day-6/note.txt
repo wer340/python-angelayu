@@ -1,0 +1,8 @@
+1-----
+code block 
+indention
+while loop 
+function
+2--
+https://docs.python.org/3/library/functions.html
+python built in function

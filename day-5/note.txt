@@ -15,3 +15,6 @@ range(1,18,2) step 2     for item in range(1,10)  Guses  1,2,3,..100
 7---
 most qustion interview
 buzz fizzz  order important
+
+
+random select in array   by  random.choice[]
