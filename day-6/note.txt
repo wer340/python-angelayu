@@ -15,3 +15,34 @@ def + my_function+()+:
 	do
 
 calling function      my_function(  )
+https://reeborg.ca/reeborg.html   ctrl+]  for indebtaion
+
+4----
+Indentation
+=================
+def my_function
+....print("hello")   ▶✅block of code
+==============
+print("hi")
+
+==========
+def my_function
+....print("hello")   ▶✅block of code
+....print("hi")
+==========
+===================
+def my_function():
+....if sky=="clear":
+........print("blue")
+....elif sky=="cloudy":      block complicated  when if and elif  have block of code 
+........print("grey")
+....print("hello")
+=====================
+two way for create identation   tab  and space 
+
+6----------
+while loop
+while something_is_true:
+	do something
+ while when i dont know  locate or time  or ...  from thing  continue running untill flase situaton  ▶while  5>3 :  infinate loop
+for  each retrive item  
