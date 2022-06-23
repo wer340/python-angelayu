@@ -1,0 +1,5 @@
+
+
+cntrl +[   or  cntrl+]  fo indentation
+while i in array :    check this array this list if exist true  loop continue
+if item in array        check this array this list if exist true
