@@ -35,7 +35,7 @@ for char in name
  name="scarlett"
  result=True
  while result :
-  if s in name :
+  if "s" in name :
        result=False
        print(f"this a {name} \n\n")
   ```
