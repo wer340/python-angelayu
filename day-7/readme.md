@@ -11,8 +11,8 @@ while item not in list:
   list.append(item)
 ```
 
-List Methods
-Here are some other common list methods.
+## List Methods
+### Here are some other common list methods.
 
 + **list.append(elem)** -- adds a single element to the end of the list. Common error: does **not return** the new list, just modifies the original.
 + **list.insert(index, elem)** -- inserts the element at the **given index**, shifting elements to the right.
