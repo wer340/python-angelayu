@@ -31,6 +31,7 @@ for char in name
   ```
  # while loop
  ```python
+ name="scarlett"
  result=True
  while result :
   if s in name :
