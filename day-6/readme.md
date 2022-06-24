@@ -13,5 +13,5 @@ def my_function():
   elif sky=="cloudy":      #block complicated  when if and elif  have block of code 
    print("grey")
   print("hello")
-
+```
 ![block of code](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-6/blockofcode.png)
