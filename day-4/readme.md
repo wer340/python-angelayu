@@ -8,7 +8,8 @@ middle of digit pick up for multiplication  this procces continue untill reach o
 + 641*641=21**529**6  
 + 529*529=27**984**1 
 + 984*984=96**825**6
-[video khanacademy](https://www.youtube.com/watch?v=GtOt7EBNEwQ&ab_channel=KhanAcademyLabs) 
+++ result ▶ **464529984825....**  
++ [video khanacademy](https://www.youtube.com/watch?v=GtOt7EBNEwQ&ab_channel=KhanAcademyLabs) 
 ## seed in python  by deafult set timestamp
 
 
