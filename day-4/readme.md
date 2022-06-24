@@ -20,5 +20,5 @@ random.seed(test_speed) #change deafult seed
 
 random.randint(100,200)
 word_list=["ardvark" , "baboon" ,"camel","Alligator","Alpaca"]
-random.choice(word_list) #random select of list
+random.choice(word_list) #random of list  select 
 ```
