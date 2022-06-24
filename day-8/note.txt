@@ -1,0 +1,18 @@
+1----
+caesar cipher  realy ancient type of encryption and dycription
+ function with input argument & parameters
+2----
+greet() function
+ 
+def my_function(something):  input  
+but notice how its expecting some sort of input inside the parentheses  tells me that it wants to receive a name 
+
+   ✅in programming  ✅something(parameter[name of data])=123(argument [piece of data=actual value of data])  
+make same indent many line of code ▶▶  ctrl +]
+3---
+def my_function(something1,something2)    ✅🌿✔positional argument  because when we call the func 
+we havent spcified anywhere which particular parameter we want to associate
+now this is the default way of calling func becaause on one hand  ✅✅when you are typing out the code 
+maany unexpect order happen
+you could use soething called keyword argument instead  of just adding argument into the function call like this
+def my_function(a=1,b=2,c=3) if change order def my_function(c=3,b=2,a=1)  it still going to abide by this binding
