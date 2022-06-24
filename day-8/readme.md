@@ -1,4 +1,4 @@
-#  input function     8^th^
+#  input function    
 
  ## def my_function (parameter=argument)    
  
