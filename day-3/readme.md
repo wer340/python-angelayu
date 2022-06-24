@@ -37,7 +37,7 @@ for char in name
  while result :
   if s in name :
        result=False
-       print(f"this a {name}")
+       print(f"this a {name} \n\n")
   ```
   # for adding asci art  or  a bunch  of paragraph  use  three ''' at first and three ''' at end   like🔽
   ```
