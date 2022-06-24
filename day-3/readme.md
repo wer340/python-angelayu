@@ -1,4 +1,4 @@
-[draw.io](draw.io   flowchart)   flowchart draw
+[draw.io](draw.io)   flowchart draw
 structure
 if  for while  
 ```python
@@ -36,7 +36,7 @@ for char in name
        result=False
        print(f"this a {name}")
   ```
-  # for adding asci art  or  a bunch  of paragraph  use  three '''   like🔽
+  # for adding asci art  or  a bunch  of paragraph  use  three ''' at first and three at end   like🔽
   ```
   heart='''
   
@@ -68,4 +68,5 @@ eICareICareICareICareICareICareICareICareICareICareICareICareICareICar
                                  reIC
                                   eI
    ```
- asci art (ascii.co.uk/art)[https://ascii.co.uk/art]
+   
+ asci art [ascii.co.uk/art](https://ascii.co.uk/art)
