@@ -19,4 +19,4 @@ many unexpect order happen**
  def my_function(a,b,c)
   print(f"I am {a} and live in {b} side my {c}")
  
- my_function(c="family" ,b="paris" , a="scarlett")
+ my_function(c="family" ,b="paris" , a="scarlett") #order not **important** 
