@@ -49,5 +49,5 @@ print(list_actress[1]["Sharon Stone"][2])#Casino
 list_actress.append({"Audrey Hepburn":["Breakfast at Tiffany's","Roman Holiday","Charade","My Fair Lady"]})
 print(list_actress[5])
 ```
-## Python [Tutor]([pythontutor.com](https://pythontutor.com/)): Visualize code in Python, JavaScript, C, C++, and Java
+## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ![data srtucture](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-9/image/Visualize%20png.png)
