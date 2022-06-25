@@ -51,3 +51,20 @@ print(list_actress[5])
 ```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ![data srtucture](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-9/image/Visualize%20png.png)
+
+## how do we if don't knows keys and values analyze this {key:value} ✅✔solution for key in return
+```python
+import random
+list_dictionary=[
+{"Scarlett Johansson":"Avengers: Endgame"},
+{"Sharon Stone":"Basic Instinct"},
+{"Jennifer Connelly":"A Beautiful Mind"},
+{"Brooke Shields":"The Blue Lagoon"},
+{"Monica Bellucci":"Malena"}
+]
+my_choise=random.choice(list_dictionary)
+#how can analyze a {key:value}
+for key in my_choice:
+	print(key)
+	print(my_choice[key])
+```
