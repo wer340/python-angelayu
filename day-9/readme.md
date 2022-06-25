@@ -31,3 +31,23 @@ for thing in dictionary:#thing is key
 	print(dictionary[bug])#output an error in a program ..
   ```
   
+# nesting
+```python
+list_actress=[
+{"Scarlett Johansson":{
+    "movies":["Avengers: Endgame","Lost in Translation","Her","The Avengers","Ghost World"],"age":38}
+},
+{"Sharon Stone":["Basic Instinct","Casino,The Quick and the Dead","Sliver"]},
+{"Jennifer Connelly":["A Beautiful Mind","House of Sand and Fog","Requiem for a Dream","The Rocketeer"]},
+{"Brooke Shields":["The Blue Lagoon","Pretty Baby","Wanda Nevada","The Midnight Meat Train"]},
+{"Monica Bellucci":["Malena","The Matrix Revolutions","The Matrix Reloaded","Shoot 'Em Up"]}
+]
+
+print(list_actress[0]["Scarlett Johansson"]["movies"][4]) #Ghost World 
+print(list_actress[1]["Sharon Stone"][2])#Casino
+
+list_actress.append({"Audrey Hepburn":["Breakfast at Tiffany's","Roman Holiday","Charade","My Fair Lady"]})
+print(list_actress[5])
+```
+## Python [Tutor](pythontutor.com): Visualize code in Python, JavaScript, C, C++, and Java
+![data srtucture](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-9/image/Visualize%20png.png)
