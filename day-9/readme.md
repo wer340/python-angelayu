@@ -62,7 +62,7 @@ list_dictionary=[
 {"Brooke Shields":"The Blue Lagoon"},
 {"Monica Bellucci":"Malena"}
 ]
-my_choise=random.choice(list_dictionary)
+my_choice=random.choice(list_dictionary)
 #how can analyze a {key:value}
 for key in my_choice:
 	print(key)
