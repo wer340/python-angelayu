@@ -1,0 +1,36 @@
+1--
+python dictionary and nesting
+line of program instructions for the computer and dictionarues are realy useful
+allow  group together  tag realated a piece ofinformation
+
+✅table
+dictonary  has two part   ✔ key ✔value
+{key:value}  > dic={"bug" : "an error in a program ..","function":"A piece of code taht you can "}  ▶dic["bug"]="an error in a program .."
+❌key spell more time  wrong by devloper  ker error   ❌bog >bug✅
+
+second error   key whithout "" quote   dic={bug : "an error in a program ..",function:"A piece of code taht you can "} ❌❌
+
+nice to do
+{  next line first key   and in a first of new line another key 
+
+✔✅adding new item to dictionary
+dic["loop"]="The action of doing something over ..."
+✅create emty dictinary 
+empty_dic={} if a dictonary this value  clear all data 
+
+loop in dictionary
+
+for thing in dic::
+	print(thing) # output key
+	print(dic[thing])#output value
+
+3---
+nesting
+travel_log={
+"France":["paris","Lille" ,"Dijon"] #data structure
+"Actress":{"Sharon Stone":{"age":64,"movie":"Basic Instinct"}}
+}
+
+7---
+think about   [{},{},{}]  if select [1]  know how do you do if dont know key and value  retuern a {}   this place  untill ✅✔for key in retuen
+pythontutor.com

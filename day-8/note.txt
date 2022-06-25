@@ -14,5 +14,7 @@ def my_function(something1,something2)    ✅🌿✔positional argument  because
 we havent spcified anywhere which particular parameter we want to associate
 now this is the default way of calling func becaause on one hand  ✅✅when you are typing out the code 
 maany unexpect order happen
-you could use soething called keyword argument instead  of just adding argument into the function call like this
+you could use something called keyword argument instead  of just adding argument into the function call like this
 def my_function(a=1,b=2,c=3) if change order def my_function(c=3,b=2,a=1)  it still going to abide by this binding
+
+6---
