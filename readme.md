@@ -7,7 +7,25 @@
 + **list.sort()** -- sorts the list in place (does **not return** it). (The sorted() function shown later is preferred.)
 + **list.reverse()** -- reverses the list in place (does **not return** it)
 + **list.pop(index)** -- removes and returns the element at the given index. **Returns** the rightmost element if index is omitted (roughly the opposite of append()).
-
-
+# python list 
+```python
+fruits=[item1,item2]
+list.append(x) #add item
+fruits[-1]   #output=item2 if offset start last list
+str_inp = "Hello,from,AskPython"
+op = str_inp.split(",")
+print(op)
+```
+# python  dictionary
+```python
+list_dictionary={
+"Scarlett Johansson":"Avengers: Endgame",
+"Sharon Stone":"Basic Instinct",
+"Jennifer Connelly":"A Beautiful Mind",
+"Brooke Shields":"The Blue Lagoon",
+"Monica Bellucci":"Malena"
+}
+list_dictionary["Angelina Jolie"]="Maleficent" #add record
+```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ### fork it ❤   
