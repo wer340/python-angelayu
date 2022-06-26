@@ -1,0 +1,14 @@
+1----
+function output
+2--
+.title   capital letter first char of word
+
+3---
+when the computer encounters a line that has the word return on it then it knows ✅that this line is the end of the function
+ if f_name=="" or l_name=="" :
+        return"You didnt provide valid inputs"
+#skip  if data not correct
+
+5--
+docstring
+has to go as the first line after the declartion  thre qutation mark """a="string" """
