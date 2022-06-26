@@ -1,4 +1,13 @@
 # 100day python Angela Yu ✅🌿
+
+### type of variable
+```python
+def my_function():
+  return[name]
+ 
+ print(type(my_function())
+ ```
+
 + **list.append(elem)** -- adds a single element to the end of the list. Common error: does **not return** the new list, just modifies the original.
 + **list.insert(index, elem)** -- inserts the element at the **given index**, shifting elements to the right.
 + **list.extend(list2)** or **[]+=[]** adds the elements in list2 to the end of the list. Using + or += on a list is similar to using extend().
