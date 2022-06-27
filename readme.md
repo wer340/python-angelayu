@@ -1,6 +1,6 @@
 # 100day python Angela Yu ✅🌿
 
-## Tables
+
 |shortcut key|description|
 |------------|-----------|
 |Alt+Shift+Arrow key|copy line|
