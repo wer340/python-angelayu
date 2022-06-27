@@ -1,5 +1,5 @@
 # function output
-### when the computer encounters a line that has the word **return** on it then it knows ✅that this line is the end of the function
+### when the computer encounters a line that has the word ==return== on it then it knows ✅that this line is the end of the function
 ```python
 def my_function():
   word="hello world"
