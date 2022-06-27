@@ -1,9 +1,10 @@
 # 100day python Angela Yu ✅🌿
-
-
+---
+### vscode useful shortcut keyBoard
 |shortcut key|description|
 |------------|-----------|
 |Alt+Shift+Arrow key|copy line|
+---
 ### type of variable
 
 ```python
