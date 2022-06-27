@@ -1,5 +1,7 @@
 # 100day python Angela Yu ✅🌿
-
+|shortcut key|description|
+|------------|-----------|
+|Alt+Shift+Arrow key|copy line|
 ### type of variable
 ```python
 def my_function():
