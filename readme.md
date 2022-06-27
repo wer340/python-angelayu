@@ -1,6 +1,14 @@
 # 100day python Angela Yu ✅🌿
+---
+### vscode useful shortcut keyBoard
+|shortcut key|description|
+|------------|-----------|
+|Alt+Shift+Arrow key|copy line|
+|Ctrl+] and Ctrl+[|adjust indent|
 
+---
 ### type of variable
+
 ```python
 def my_function():
   return[name]
