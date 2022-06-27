@@ -16,3 +16,6 @@ has to go as the first line after the declartion  thre qutation mark """a="strin
 8--
 diffrence  💎print and 💎return
 can be used first output as input at second cycle function
+
+✅recursion a function reuse in same function ❌be carful in order to infinate loop
+
