@@ -1,5 +1,5 @@
-
-
+import os
+import logo
 
 # add
 
@@ -32,11 +32,12 @@ def function_call(operator_in):
             return function_symbol 
 
 def calculator():
-
-    num1=int(input("whats first number ? : "))
+    os.system('cls')
+    print(logo.logo)
+    num1=float(input("whats first number ? : "))
     calc_flag=True
     while calc_flag:
-        num2=int(input("whats second number ? : "))#input int2
+        num2=float(input("whats second number ? : "))#input int2
         for key in operator:
             print(key)   #print symbol
         operator_in=input("whats operator ? : ") #input symbol
