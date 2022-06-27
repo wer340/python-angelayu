@@ -21,7 +21,7 @@ def my_function():
  ### diffrence  💎print and 💎return
 ### return  can be used first output as input at second cycle function
 
-# recursion
+# `recursion`
 #### recursion, a function reuse in same function ❌be careful in order to infinite loop
 ```python
 def my_function():
