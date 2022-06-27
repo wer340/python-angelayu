@@ -4,6 +4,8 @@
 |shortcut key|description|
 |------------|-----------|
 |Alt+Shift+Arrow key|copy line|
+|Ctrl+] and Ctrl+[|adjust indent|
+
 ---
 ### type of variable
 
