@@ -12,3 +12,7 @@ when the computer encounters a line that has the word return on it then it knows
 5--
 docstring
 has to go as the first line after the declartion  thre qutation mark """a="string" """
+
+8--
+diffrence  💎print and 💎return
+can be used first output as input at second cycle function
