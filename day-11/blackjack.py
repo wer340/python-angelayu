@@ -1,9 +1,9 @@
 
 import random
 
-print("\n \n Black Jack  \n \n")
+# print("\n \n Black Jack  \n \n")
 
-cards=[2,3,4,5,6,7,8,9,10,10,10,11]
+# cards=[2,3,4,5,6,7,8,9,10,10,10,11]
 user=[]
 computer=[]
 def pickup(user):
@@ -11,24 +11,28 @@ def pickup(user):
     user.append(choice)
 
    
-input("type any keyboard : ")
-pickup(user)
-pickup(user)
-pickup(computer)
-pickup(computer)
+# input("type any keyboard : ")
+# pickup(user)
+# pickup(user)
+# pickup(computer)
+# pickup(computer)
+user=[10,4]
+computer=[2,3]
 print(f"\n user card = {user} \n")
 print(f"\n computer card = {computer} \n")
-def blaackjack_loop(user,computer):
-    
-    sum_user=sum(user)
-    sum_computer=sum(computer)
-    
-    if sum_user>21:
+def is_ace():
+    if len(user)==2 and sum(user)==21:
         return False
-    elif sum_computer>21 :
-        return True
     else:
-        return None
+        return True
+def blaackjack_loop(user,computer):
+    if not is_ace():
+        return False
+    elif sum(user)>21:
+        return False
+    elif sum(computer)>21 :
+        return True
+  
 
 
 answer=blaackjack_loop(user,computer)
