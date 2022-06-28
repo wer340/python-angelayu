@@ -7,7 +7,7 @@ then dealer second card conseal  you can pick a another card  or  say dealer tha
 random.choices(sequence, weights=None, cum_weights=None, k=1)
 ## return  get out only `self function`  break getout `self loop`
 ---
-#### when not set `else` property of if  ▶ function return `none`  or true      not none==true
+#### when not set `else` property of `if`  ▶ function return `none`  or true      not none=true
 ```python
 def my_function(number):
     if number<10:
