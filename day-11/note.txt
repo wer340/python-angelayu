@@ -11,3 +11,7 @@ def my_function()
 	if condition:
 		print("hello")
 return none  or hello      not none==true
+
+or   and   ✅✅
+indent 
+
