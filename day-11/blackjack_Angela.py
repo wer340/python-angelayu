@@ -37,24 +37,24 @@ for _ in range(2):
   user_cards.append(deal_cards())  
   computer_cards.append(deal_cards())
   
-  print(f"your cards is {user_cards}\n")
-  print(f"computer cards is {computer_cards}\n")
-  user_score=calculate(user_cards)
-  computer_score=calculate(computer_cards)
-  while game_over :
-      print(f"user cards is {user_cards} and  user score is {user_score}")
-      print(f" computer first card is {computer_cards[0]}")
-      if user_score==0 and computer_score==0 and user_cards>21:
-        game_over=True
+print(f"your cards is {user_cards}\n")
+print(f"computer cards is {computer_cards[0]}\n")
+user_score=calculate(user_cards)
+computer_score=calculate(computer_cards)
+while not game_over :                                  #you decision
+    print(f"user cards is {user_cards} and  user score is {sum(user_cards)}")
+    print(f" computer first card is {computer_cards[0]}")
+    if user_score==0 or computer_score==0 or sum(user_cards)>21:
+      game_over=True
+    else:
+      decision=input("if you pick card y or n ? ")
+      if decision=="y":
+        user_cards.append(deal_cards())
       else:
-        decision=input("if you pick card y or n ? ")
-        if decision=="y":
-          user_cards.append(deal_cards())
-        else:
-          game_over=True
-while computer_score!=0 and user_cards < 17:
-  computer_user_cards.append(1)
-  computer_score=calculate(computer_user_cards)
+        game_over=True
+while computer_score!=0 and sum(user_cards) < 17:   #computer decision
+  computer_cards.append(1)
+  computer_score=calculate(computer_cards)
 print(f"user cards is {user_cards} and  user score is {user_score}")
 print(f"user cards is {computer_cards} and  user score is {computer_score}")
 
