@@ -1,0 +1,19 @@
+1--
+scope
+consept tree free and with tree fence
+local scope
+===
+local scope
+def drink()
+	ccdddd
+	dddd
+
+===
+global scope
+is availble top level
+this concept of global and local scope doesn't just apply to variables as i alluded to before it 
+also applies to function and basically anything else you name this is a ✅consept called the namespace 
+
+anything that you give a name to has a namespace and that namespace is valid in certain scope
+
+✅whenever you give name to anything  a function or a varible you have to be aware of where you cereated it
