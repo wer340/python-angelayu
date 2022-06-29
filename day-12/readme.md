@@ -35,7 +35,7 @@ terrible thing local var same name with global var
 ```python
 PI=3.14
 def circle(r):
- return pi*r**2
+ return PI*r**2
 circle(5)
 
 ```
