@@ -1,6 +1,5 @@
 # scope  namespce  global variable
-### tree as circle around fence    tree  free walk road  
-![scope](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-12/image/scope.png)
+
 + this concept of global and local scope doesn't just apply to variables as i alluded to before it 
  also applies to function and basically anything else you name this is a ✅consept called the namespace 
 + anything that you give a name to has a `namespace` and that namespace is valid in `certain scope`
