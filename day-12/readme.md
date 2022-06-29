@@ -1,6 +1,6 @@
 # scope  namespce  global variable
 ### tree as circle around fence    tree  free walk road  
-[ascope](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-12/image/scope.png)
+![scope](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-12/image/scope.png)
 + this concept of global and local scope doesn't just apply to variables as i alluded to before it 
  also applies to function and basically anything else you name this is a ✅consept called the namespace 
 + anything that you give a name to has a `namespace` and that namespace is valid in `certain scope`
@@ -32,4 +32,12 @@ def my_function():
 ---
 ## whenever you give name to anything a function or a variable you have to be aware of where you created it
 terrible thing local var same name with global var
-# global var you are never planning on change it ever again like PI=3.14 turn into uppercase constant var in order to never chang URL="" 
+## global var you are never planning on change it ever again like PI=3.14 turn into uppercase constant var in order to never chang URL="" 
+```python
+PI=3.14
+def circle(r):
+ return pi*r**2
+circle(5)
+
+```
+ 
