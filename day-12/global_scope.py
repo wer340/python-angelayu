@@ -3,10 +3,8 @@
 enemie=2
 
 def my_function():
-    global enemie
-    enemie +=5  #refrence before assignment mean user in scope not define var  and  process on var that not define
-    
+     #not advice  that modify global scop  in local scope
     print(f"your enemis is local scope : {enemie}")
-
-my_function()
+    return enemie+7
+enemie= my_function()
 print(f"your enemis is global scope : {enemie}")

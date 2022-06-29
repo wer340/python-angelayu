@@ -1,4 +1,4 @@
-1--
+﻿1--
 scope
 consept tree free and with tree fence
 local scope
@@ -17,3 +17,16 @@ also applies to function and basically anything else you name this is a ✅conse
 anything that you give a name to has a namespace and that namespace is valid in certain scope
 
 ✅whenever you give name to anything  a function or a varible you have to be aware of where you cereated it
+
+trrible thing  local var  same name with global var
+
+3---
+refrence before assignment mean user in scope not define var  and  process on var that not define
+avoid modyfing global scope
+
+dont try modify in local scope but you can do instead
+
+4---
+global  var    you are never planing on change it ever again like  PI=3.14
+turn into uppercase  constatnt var  in order to  never chang
+URL=""  PI=3.14
