@@ -8,3 +8,24 @@ dont feel down bug   everyone gets bug
 2---
 reproduce the bug
  code one and twice  run  looks fine but next run  error   this bug very difficult 
+try can change  code so that aalways produce this error
+3--
+play computer
+replace aargument instead of parameter  argument select on bundry of condition
+4---
+fix bug   text editor  error
+but error leaading to user input  or data  independ  to condition    input > str   condition  input<14    str<int ❌
+frustrating error not sign f err   f"You can drive at age {age}" 
+
+5--
+use print     print best friend  
+output each  of data check   manage and narrow down problem 
+
+6--- 
+BIG Gun
+use debugger
+that aanother toll that i realy want to talk about  and it s tool that s bigger its afancier its more complex
+so what is it✔ its a debugger
+https://pythontutor.com/
+break point 
+https://thonny.org/ 
