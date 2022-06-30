@@ -1,4 +1,5 @@
 from random import randint
 dice_imgs=["1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣"]
-dice_num=randint(1,6)
+dice_num=randint(6,12)
 print(dice_imgs[dice_num])
+#list index out of range
