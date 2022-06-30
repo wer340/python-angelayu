@@ -1,0 +1,10 @@
+1---
+technic debug 
+first documented bug was actually found by this lady  grace hopper
+dont feel down bug   everyone gets bug
+
+1- describe the problem
+
+2---
+reproduce the bug
+ code one and twice  run  looks fine but next run  error   this bug very difficult 
