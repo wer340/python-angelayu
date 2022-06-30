@@ -6,7 +6,7 @@ for number in range(1,101):
     elif number%5==0:
         print("buzz")
     else:
-        print([number])
+        print(number)
 
 # if   then if seq  for a uniq codition not used  if and elif and for common thing or means  one of them or both of them
 
