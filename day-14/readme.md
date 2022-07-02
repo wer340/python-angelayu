@@ -17,7 +17,7 @@ account_b = get_random_account() #b=net data random
 
 + Check if user is correct.
     - Get follower count.
-    - If Statement
+    * If Statement
 
 + Feedback.
 
