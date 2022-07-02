@@ -6,7 +6,8 @@ print(logo.logo)
 
 def pick_list():
     num=random.randint(0,3)
-    return random.choice[num]
+    return random.choice[num]  # () You need to use parentheses
+
 
 
 
