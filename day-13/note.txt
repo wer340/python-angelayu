@@ -8,6 +8,7 @@ dont feel down bug   everyone gets bug
 2---
 reproduce the bug
  code one and twice  run  looks fine but next run  error   this bug very difficult 
+<<<<<<< HEAD
 try can change  code so that aalways produce this error
 3--
 play computer
@@ -29,3 +30,20 @@ so what is it✔ its a debugger
 https://pythontutor.com/
 break point 
 https://thonny.org/ 
+=======
+
+7---
+realy imortant type from somebody who done quite a lot of coding and created  
+take break   have sleep   take snap  or caffe
+very important
+
+8-
+ask your friend
+didcord
+
+9--- 
+run often walk 
+10---
+stack over flow
+
+>>>>>>> f2b7e2455245be941feb31f5d35e39c995b86473
