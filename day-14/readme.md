@@ -1,3 +1,7 @@
+### go to this site for check type of game 
+
+site [higherlowergame](http://www.higherlowergame.com/)
+---
 # replace var  
 ```python
 account_a = account_b      #a=b
