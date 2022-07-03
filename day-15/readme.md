@@ -8,7 +8,25 @@ def is_resource_sufficient(order_ingredients):
             return False
     return True
 ```
-    
+## me solution ☹
+```python
+def is_resource_sufficient(model, resources):
+    global MENU
+    water = MENU[model]['ingredients']['water']
+    coffee = MENU[model]['ingredients']['coffee']
+    if model == "espresso":
+        milk = 0
+    else:
+        milk = MENU[model]['ingredients']['milk']
+    if resources["water"] > water and resources['coffee'] > coffee and resources['milk'] >= milk:
+        resources['water'] -= water
+        resources['coffee'] -= coffee
+        resources['milk'] -= milk
+
+        return True
+    else:
+        return False
+ ```
 # IDE
 ### intelligent Development Enviroment
 #pycharm 
