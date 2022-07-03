@@ -1,6 +1,6 @@
 # 100day python Angela Yu ✅🌿
 ---
-### IDE `I`ntelligent `D`evelopment `E`nviroment useful shortcut keyBoard
+### IDE [`I`ntelligent `D`evelopment `E`nviroment] useful shortcut keyBoard
 |vscode|description|pycharm|description|
 |------------|-----------|------------|-----------|
 |Alt+Shift+Arrow key|copy line|alt+shift▶then drag down|some cursor creaate for type same thing|
