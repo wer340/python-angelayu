@@ -1,0 +1,13 @@
+1---
+IDE
+intelligent Development Enviroment
+pycharm 
+https://www.jetbrains.com/pycharm/download/#section=windows   free version
+pycharm  its feature advance  property    Built-in linter > automaticly applies thoes rule and guidaance to our code but not effect your code only suggestion for readeble
+
+https://peps.python.org/pep-0008/  style guide 
+another advance feature  is   loacl history and revert time back 
+another handy feature structure   all of variable  all of function 
+3--
+✅much much safer click right refactor rename   on name click[not drag select all namespace❌] of namespce all of document rename  instead of one by one change 
+❌ replace all not intelligent but ✅refactor intelligent
