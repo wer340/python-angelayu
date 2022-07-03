@@ -1,10 +1,11 @@
 # 100day python Angela Yu ✅🌿
 ---
-### vscode useful shortcut keyBoard
-|shortcut key|description|
-|------------|-----------|
-|Alt+Shift+Arrow key|copy line|
+### IDE [`I`ntelligent `D`evelopment `E`nviroment] useful shortcut keyBoard
+|vscode|description|pycharm|description|
+|------------|-----------|------------|-----------|
+|Alt+Shift+Arrow key|copy line|Alt+shift▶then drag down|some cursor creaate for type same thing|
 |Ctrl+] and Ctrl+[|adjust indent|
+|Alt+z|break line for fit screen|
 
 ---
 ### type of variable
