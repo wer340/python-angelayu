@@ -42,9 +42,11 @@ def input_type(name):
         return "latte"
     else:
         return "cappuccino"
+
+
 #
 
-def check_resorce(model, resources):
+def is_resource_sufficient(model, resources):
     global MENU
     water = MENU[model]['ingredients']['water']
     coffee = MENU[model]['ingredients']['coffee']
@@ -60,6 +62,7 @@ def check_resorce(model, resources):
         return True
     else:
         return False
+
 
 def coin_process(model):
     cost = MENU[model]['cost']
@@ -82,7 +85,7 @@ def caffe_machine(resources):
         print_resource(data=resources)
         name = input("please select type of coffee : espresso  [ex], latte [la], cappuccino [ca]")
         name = input_type(name)
-        if check_resorce(model=name, resources=resources):
+        if is_resource_sufficient(model=name, resources=resources):
             coin_process(name)
 
         else:
