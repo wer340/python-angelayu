@@ -7,7 +7,7 @@ def is_resource_sufficient(order_ingredients):
             print(f"​Sorry there is not enough {item}.")
             return False
     return True
-    ```
+```
     
 # IDE
 ### intelligent Development Enviroment
