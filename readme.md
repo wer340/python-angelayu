@@ -3,7 +3,7 @@
 ### vscode useful shortcut keyBoard
 |shortcut key|description|pycharm|description|
 |------------|-----------|------------|-----------|
-|Alt+Shift+Arrow key|copy line|alt+shift  then drag down|some cursor creaate for type same thing|
+|Alt+Shift+Arrow key|copy line|alt+shift▶then drag down|some cursor creaate for type same thing|
 |Ctrl+] and Ctrl+[|adjust indent|
 |Alt+z|break line for fit screen|
 
