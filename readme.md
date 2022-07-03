@@ -5,6 +5,7 @@
 |------------|-----------|
 |Alt+Shift+Arrow key|copy line|
 |Ctrl+] and Ctrl+[|adjust indent|
+|Alt+z|break line for fit screen|
 
 ---
 ### type of variable
