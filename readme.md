@@ -45,5 +45,16 @@ list_dictionary={
 }
 list_dictionary["Angelina Jolie"]="Maleficent" #add record
 ```
+### oop
+```python
+from turtle import Turtle,Screen   #PascalCase   CodeCase 
+#which is normally written with the first letter of each word capitalized which is known as ✔pascal case
+timmy=Turtle()  
+my_screen=Screen() 
+print(timmy)   //expect  adress of loaction
+my_screen.cancheight #object attribute  output value height 
+my_screen.exitonclick() #method
+timmy.forward(44)#method
+```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ### fork it ❤   
