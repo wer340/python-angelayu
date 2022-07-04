@@ -1,3 +1,4 @@
+#oop `o`bject `o`riented `p`rogramming
 code complex   try to do manaage  try to do understand   whole of bunch code 
   at some point the logic of our code starts looking very very ✅spaghetti like
 `realy hard track` actually whats ging on code 
