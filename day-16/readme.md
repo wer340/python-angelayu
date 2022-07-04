@@ -3,6 +3,7 @@ code complex   try to do manaage  try to do understand   whole of bunch code
 `realy hard track` actually whats ging on code 
 this style of programming is caalled ✅`procedural programming`  earliest paradigm of programming
 fortran cobol
+---------------
 ![history](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/aprocedural_programming.png)
 ---------
 increase in the number of relationship  that we need to remember and manage 
