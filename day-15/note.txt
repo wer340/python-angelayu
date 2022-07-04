@@ -11,3 +11,9 @@ another handy feature structure   all of variable  all of function
 3--
 ✅much much safer click right refactor rename   on name click[not drag select all namespace❌] of namespce all of document rename  instead of one by one change 
 ❌ replace all not intelligent but ✅refactor intelligent
+5---
+handy feature of pycharm
+something called to-do tracking
+program requirement  breack deon problem
+8--
+alt+shift  then drag down
