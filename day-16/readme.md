@@ -83,4 +83,5 @@ Process finished with exit code 0
 
 
 ```
+![codecase](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-1/image/codeCasepng.png)
 ![methods_see](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/methods_see.png)
