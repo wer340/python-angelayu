@@ -40,7 +40,7 @@ its  data attached particular object   object have thing  aand  can do thing  es
 oop we call this `blueprint` or `this type  a class` we call these individual object that are generated from the blueprint an object
 how you use these class blueprint to create an actual  object
 ## blueprint
-[blueprint](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/blueprintt.png)
+![blueprint](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/blueprintt.png)
 ------------
 `blueprint` which models a real-life    is known as the class
 this `class` that we can `genrate` as many `object` as we want create new object from aa blueprint 
