@@ -12,5 +12,3 @@
 |    Hilary Swank   |                          July 30, 1974 in Lincoln, Nebraska, USA                           |                                  live                                 |
 |     Naomi Watts   |                     September 28, 1968 in Shoreham, Kent, England, UK                      |                                  live                                 |
 +-------------------+--------------------------------------------------------------------------------------------+-----------------------------------------------------------------------+
-
-Process finished with exit code 0
