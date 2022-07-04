@@ -1,4 +1,5 @@
 1------
+my_function  snake case
 oop   big gun 
 code complex   try to do manaage  try to do understand   whole of bunch code 
   at some point the logic of our code starts looking very very ✅spaghetti like
@@ -44,4 +45,5 @@ https://pypi.org/project/prettytable/
 file▶setting ▶my_work_dir_name▶ python interpreter ▶+ sign  > install anu package
 see source code   right click goto  see implemetaion
 asci table
+setting wrap bracet 
 5---
