@@ -4,8 +4,8 @@
 |vscode|description|pycharm|description|
 |------------|-----------|------------|-----------|
 |Alt+Shift+Arrow key|copy line|Alt+shift▶then drag down|some cursor creaate for type same thing|
-|Ctrl+] and Ctrl+[|adjust indent|
-|Alt+z|break line for fit screen|
+|Ctrl+] and Ctrl+[|adjust indent|Command+Alt+L and [Wrapping and Braces](https://stackoverflow.com/questions/57302273/how-to-split-one-very-long-line-in-pycharm-into-multiple-lines)|break long line|
+|Alt+z|break long line|
 
 ---
 ### type of variable
