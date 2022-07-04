@@ -47,7 +47,7 @@ how you use these class blueprint to create an actual  object
 `blueprint` which models a real-life    is known as the class
 this `class` that we can `genrate` as many `object` as we want create new object from aa blueprint 
 ```python
-car=CarBlueprint()  #PascalCase   CodeCase 
+from turtle import Turtle   #PascalCase   CodeCase 
 #which is normally written with the first letter of each word capitalized which is known as ✔pascal case
 timmy=Turtle()  
 my_screnn=Screen() 
