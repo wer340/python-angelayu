@@ -1,0 +1,47 @@
+1------
+oop   big gun 
+code complex   try to do manaage  try to do understand   whole of bunch code 
+  at some point the logic of our code starts looking very very ✅spaghetti like
+realy hard track actually whats ging on code 
+this style of programming is caalled ✅procedural programming  earliest paradigm of programming
+fortran cobol
+increase in the number of relationship  that we need to remember and manage 
+start making it look a bit like the dating history of the karashinaans
+paradim oop come  thats real handy
+by splitting up this abig complex task into seprate modules then we can all work on this acar simultaneously
+massivly optimize  and  make quicker
+plus on top of taht aa lot of these ✅modules are reusable 
+beacuse we have taken out these individual chunks of code and modularized  using object oriented programming
+✔a larger task into taht smaller pieces  aand each of those pieces can be worked on by seprate team sepraate people 
+and also each of those pieces becom reusable if we need the same functionality
+resturant  have many worker  understand  big resturant but  have a few worker means mini resturaant
+ 2----
+how to use oop
+the reason why ✅✅object oriented programming   is called that is beacuse its trying to model a real world object
+every module waiter chef ..  two thing   ✔has{is_holding_plate=True}  ✔does{def takee_order(): def take_payment():}
+has  > attributes     does > method
+its  data attached particular object   object have thing  aand  can do thing  essential  all of data particular module together into object  same thing
+✅✅we can generate as many of these as  we want from the same ✔blueprint
+oop we call this blueprint or this type  a class we call these individual object that are gebrated from the blueprint an     object
+how you use these class blueprint to create an actual 
+3------
+blueprint which models a real-life    is known as the class
+this class that we can genrate as many object as we want 
+create new object from aa blueprint  ✔car=CarBlueprint()   which is normally written with the first letter of each word capitalized which is known as ✔pascal case
+✅✅✅this is very different from say  if we just printed a string or a number 
+from turtle imort Turtle ,screen      timmy=Turtle()   my_screnn=Screen()   print(timmy)   //expect  adress of loaction
+this is actually object  printed
+object attribute  my_screnn.cancheight    output value height  screen  
+object method		my_screnn.exitonclick()  timmy.shape("turtle")
+https://cs111.wellesley.edu/labs/lab02/colors turtle color
+4---
+how to add packages
+but a package differs from a module in the sense thaat its actually 
+a whole bunch of code that other people have written lots and lots of file all packaged together to achieve some sort of goal or purpose
+we waant create a table of pokemon and their type 
+https://pypi.org/   ✔python package index
+https://pypi.org/project/prettytable/
+file▶setting ▶my_work_dir_name▶ python interpreter ▶+ sign  > install anu package
+see source code   right click goto  see implemetaion
+asci table
+5---
