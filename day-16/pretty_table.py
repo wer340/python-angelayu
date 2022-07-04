@@ -8,23 +8,24 @@ table.add_column("Actress",
                   "Bette Davis", "Jodie Foster", "Katharine Hepburn",
                   "Elizabeth Taylor", "Kate Winslet", "Hilary Swank",
                   " Naomi Watts"])
-table.add_column("age", ["June 22, 1949 in Summit, New Jersey, USA",
-                         " August 29, 1915 in Stockholm, Sweden",
-                         " November 5, 1913 in Darjeeling, Bengal Presidency, British India [now West Bengal, India]",
-                         "April 5, 1908 in Lowell, Massachusetts, USA",
-                         " November 19, 1962 in Los Angeles, California, USA",
-                         "May 12, 1907 in Hartford, Connecticut, USA",
-                         "February 27, 1932 in Hampstead, London, England, UK",
-                         "October 5, 1975 in Reading, Berkshire, England, UK",
-                         "July 30, 1974 in Lincoln, Nebraska, USA",
-                         "September 28, 1968 in Shoreham, Kent, England, UK"])
-
+table.add_column("age", ["22, 1949, USA",
+                         " August 29, 1915,Sweden",
+                         " November 5, 1913 ,British India",
+                         "April 5, 1908 , USA",
+                         " November 19, 1962, USA",
+                         "May 12, 1907 , USA",
+                         "February 27, 1932 , UK",
+                         "October 5, 1975 , UK",
+                         "July 30, 1974 , USA",
+                         "September 28, 1968 , UK"])
 table.add_column("died", ["live",
-                          " August 29, 1982 (age 67) in Chelsea, London, England, UK",
-                          "July 8, 1967 (age 53) in Belgravia, London, England, UK",
-                          "October 6, 1989 (age 81) in Neuilly-sur-Seine, Hauts-de-Seine, France",
+                          " August 29, 1982 (age 67), UK",
+                          "July 8, 1967 (age 53) , UK",
+                          "October 6, 1989 (age 81), France",
                           "live",
-                          " June 29, 2003 (age 96) in Old Saybrook, Connecticut, USA",
-                          "March 23, 2011 (age 79) in Los Angeles, California, USA",
+                          " June 29, 2003 (age 96) , USA",
+                          "March 23, 2011 (age 79) , USA",
                           "live", "live", "live"])
+print(table.align) #c center r right l left
+table.align='r'
 print(table)
