@@ -47,12 +47,14 @@ how you use these class blueprint to create an actual  object
 `blueprint` which models a real-life    is known as the class
 this `class` that we can `genrate` as many `object` as we want create new object from aa blueprint 
 ```python
-from turtle import Turtle   #PascalCase   CodeCase 
+from turtle import Turtle,Screen   #PascalCase   CodeCase 
 #which is normally written with the first letter of each word capitalized which is known as ✔pascal case
 timmy=Turtle()  
-my_screnn=Screen() 
+my_screen=Screen() 
 print(timmy)   //expect  adress of loaction
-my_screnn.cancheight #object attribute  output value height 
+my_screen.cancheight #object attribute  output value height 
+my_screen.exitonclick() #method
+timmy.forward(44)#method
 ```
 ✅this is very different from say  if we just printed a string or a number  
 from [turtle](https://docs.python.org/3/library/turtle.html) import Turtle ,screen     
