@@ -1,4 +1,4 @@
-# oop `o`bject `o`riented `p`rogramming
+# oop `O`bject-`o`riented `p`rogramming
 ---------------------------------
 code complex   try to do manaage  try to do understand   whole of bunch code 
   at some point the logic of our code starts looking very very ✅spaghetti like
@@ -14,7 +14,7 @@ start making it look a bit `like` the dating `history of the kardashians`
 by splitting up this a `big complex task` into `seprate modules` then we can all work on this acar simultaneously
 **massivly optimize  and  make quicker**
 plus on top of that aa lot of these ✅modules are `reusable` 
-beacuse we have taken out these individual chunks of code and modularized  using **object oriented programming**
+beacuse we have taken out these individual chunks of code and modularized  using **Object-oriented programming**
 ✔a larger task into that smaller pieces  aand each of those pieces can be worked on by seprate team sepraate people 
 and also each of those pieces becom reusable if we need the same functionality
 resturant  have many worker  we was understanding is to be big resturant but  have a few worker means mini resturaant
