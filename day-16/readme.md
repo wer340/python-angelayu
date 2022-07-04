@@ -4,6 +4,7 @@ code complex   try to do manaage  try to do understand   whole of bunch code
 this style of programming is caalled ✅`procedural programming`  earliest paradigm of programming
 fortran cobol
 ![history](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/aprocedural_programming.png)
+---------
 increase in the number of relationship  that we need to remember and manage 
 start making it look a bit `like` the dating `history of the kardashians`
 `paradim oop` come  thats real handy
@@ -32,34 +33,33 @@ def take_payment():
 ![attributes](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/attributes.png)
 ## methods 
 ![methods](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/methods.png)
+--------
 its  data attached particular object   object have thing  aand  can do thing  essential  all of data particular module together into object  same thing
-✅✅we can generate as many of these as  we want from the same ✔blueprint
-oop we call this blueprint or this type  a class we call these individual object that are generated from the blueprint an     object
-how you use these class blueprint to create an actual 
-3------
-blueprint which models a real-life    is known as the class
-this class that we can genrate as many object as we want 
-create new object from aa blueprint  ✔car=CarBlueprint()   which is normally written with the first letter of each word capitalized which is known as ✔pascal case
-✅✅✅this is very different from say  if we just printed a string or a number 
-from turtle imort Turtle ,screen      timmy=Turtle()   my_screnn=Screen()   print(timmy)   //expect  adress of loaction
-this is actually object  printed
-object attribute  my_screnn.cancheight    output value height  screen  
+✅✅we can generate as many of these as  we want from the same ✔`blueprint`
+oop we call this `blueprint` or `this type  a class` we call these individual object that are generated from the blueprint an object
+how you use these class blueprint to create an actual  object
+## blueprint
+[blueprint](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/blueprintt.png)
+------------
+`blueprint` which models a real-life    is known as the class
+this `class` that we can `genrate` as many `object` as we want create new object from aa blueprint 
+```python
+car=CarBlueprint()  #PascalCase   CodeCase 
+#which is normally written with the first letter of each word capitalized which is known as ✔pascal case
+timmy=Turtle()  
+my_screnn=Screen() 
+print(timmy)   //expect  adress of loaction
+my_screnn.cancheight #object attribute  output value height 
+```
+✅this is very different from say  if we just printed a string or a number  
+from [turtle](https://docs.python.org/3/library/turtle.html) import Turtle ,screen     
+this is actually object  printed  [turtle guide](https://docs.python.org/3/library/turtle.html)
++ [turtle color](https://cs111.wellesley.edu/labs/lab02/colors)
++ ## blueprint 
+  ![blueprint](https://github.com/wer340/python-angelayu/blob/main/day-16/image/blueprint.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### apackage for creaing Ascii table 
+[prettytable](https://pypi.org/project/prettytable/0.7.2/)
 
 
 ```
@@ -82,3 +82,4 @@ Process finished with exit code 0
 
 
 ```
+![methods_see](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/methods_see.png)
