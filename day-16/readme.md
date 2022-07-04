@@ -1,3 +1,64 @@
+code complex   try to do manaage  try to do understand   whole of bunch code 
+  at some point the logic of our code starts looking very very ✅spaghetti like
+`realy hard track` actually whats ging on code 
+this style of programming is caalled ✅`procedural programming`  earliest paradigm of programming
+fortran cobol
+![history](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/aprocedural_programming.png)
+increase in the number of relationship  that we need to remember and manage 
+start making it look a bit `like` the dating `history of the kardashians`
+`paradim oop` come  thats real handy
+by splitting up this a `big complex task` into `seprate modules` then we can all work on this acar simultaneously
+**massivly optimize  and  make quicker**
+plus on top of that aa lot of these ✅modules are `reusable` 
+beacuse we have taken out these individual chunks of code and modularized  using **object oriented programming**
+✔a larger task into that smaller pieces  aand each of those pieces can be worked on by seprate team sepraate people 
+and also each of those pieces becom reusable if we need the same functionality
+resturant  have many worker  we was understanding is to be big resturant but  have a few worker means mini resturaant
+
+#### how to use oop
+the reason why ✅✅`object oriented programming`   is called that is beacuse its `trying to model a real world object`
+every module waiter chef ..  two thing   
+```python
+#has attributes
+is_holding_plate=True
+#does  method
+def takee_order():
+  #statement
+def take_payment():
+  #statement
+
+```
+## attributes
+![attributes](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/attributes.png)
+## methods 
+![methods](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/methods.png)
+its  data attached particular object   object have thing  aand  can do thing  essential  all of data particular module together into object  same thing
+✅✅we can generate as many of these as  we want from the same ✔blueprint
+oop we call this blueprint or this type  a class we call these individual object that are generated from the blueprint an     object
+how you use these class blueprint to create an actual 
+3------
+blueprint which models a real-life    is known as the class
+this class that we can genrate as many object as we want 
+create new object from aa blueprint  ✔car=CarBlueprint()   which is normally written with the first letter of each word capitalized which is known as ✔pascal case
+✅✅✅this is very different from say  if we just printed a string or a number 
+from turtle imort Turtle ,screen      timmy=Turtle()   my_screnn=Screen()   print(timmy)   //expect  adress of loaction
+this is actually object  printed
+object attribute  my_screnn.cancheight    output value height  screen  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
