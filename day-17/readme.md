@@ -63,7 +63,7 @@ user_2.username="emilia"
 #....
 ```
 this is a little bit `prone` to `error` because 
-**so is there a `way of making thid simpler?**
+**so is there a way of making thid simpler?**
 how can i `specify` all these starting piece of information when i create my object from the class ?
 in order to do this  we have to understand something called a ✔`constructor`   which is a `part of the blueprint` that `allow` us
 to `specify` what should happen when your object is being constructed this is also known in progaramming as `initializing` an object
