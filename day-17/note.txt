@@ -18,3 +18,62 @@ if i just immediately wanted to print hello afterward  i get exactly the same er
 you have created to have some sort of content before you go head and do something else so how can we fix this ? well  if we actually realy want to leave this function 
 or this class empty ✔ we can use keyword pass and all it does is it just passes it says i dont want to have a go right now just continue to the next line of code 
 AND THIS GET RID OF OUR ERROR both in the function as well as  in our class declaration 
+
+3---
+constructor
+how do we create attribute for class
+one of the easiest way of doing this is simply tapping into your object and then adding an attribute
+and we could add aas many attributes as we want just by using this method of using the dot notation after the name of the object
+and then just adding any piece of data we want 
+class User:
+	pass	
+user_1=User()
+user_1.id="001"
+user_1.username="scarlett"
+print(user_1.username)
+
+if i go head and print you can see the value taht held in that attribute being printed in console 
+reminder : attribute is a variable thats associated with an object
+if question  ?
+we had lots and lots of attributes like this and every single time we create a new user (for this example)
+  user_1=User()
+user_1.id="001"
+user_1.username="scarlett"
+print(user_1.username)
+  user_2=User()
+user_2.id="002"
+user_2.username="emilia"
+print(user_2.username)
+this is a little bit prone to error because its perfectly valid for me to make a typo or change the name of an attribute where
+i end up with something like this
+✅✅so is there a way of making thid simpler?
+ how can i specify all these starting piece of information when i create my object from the class ?
+in order to do this  we have to understand something called a ✔constructor   which is a part of the blueprint that allow us
+to specify what should happen when your object is being constructed this is also known in progaramming as initializing an object
+when the object is being initialized we can set variable or counter to they are starting value in python
+the way that we would create the constructor is by using a special function  which is the init function ✔✅✅📗
+you can tell its special because it isnt just def keyword and then the name of the function its got two underscore either side of the name 
+and this means that is a method athat the python interpreter knows about and knows that it has a special function 
+what is the special function ? well its normally used to initialize the attributes
+~~~python code
+def __init__(self):
+~~
+inside this init function is where we initialize or create the starting vlaue for aattributes 
+the important thing to remember is that the init function is going to be called every time you create a new object from this class
+###init calles 💎💎💎
+then every time that this construction happens  when we create a new answer  then this print statement (for example) is going to be triggered
+remider : attribute  are the thing that the object will have and they are basically just variables that are associated with the final 
+how do we set constructor
+``pic
+in addition to this ✅called self  which is the actual object thats being created or being initialized
+and that parameter is going  to be passed in when an object gets constructed from this class and once you recive that data 
+you can use it to set the object atrributes
+✅✅but it doesnt make sense for all attributes to be initialized when we actually create our object so if for example
+in our case
+~~~
+self.follower=0   yo might get some  followers later on you might not 
+but it doesnt make sense for follower to be something that we have to provide whenever we constructor a new object it seem very wasteful to have
+to always write zero  when you construct any object  user("002","Scarlett",0)
+so in python we can also provide a default value just as i have done here  inside ▶ init (self.follower=0)
+instead of setting it equal to one of the parameter thats being passed in when this class is being initialized  instead im just setting ut to a value
+which is zero    all attributes follower attributes equal zero
