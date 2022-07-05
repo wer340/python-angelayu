@@ -24,10 +24,9 @@ def function():
 	pass    #THIS GET RID OF OUR ERROR
 print("hello")
 ```
-if i just immediately wanted to print hello afterward  i get exactly the same error ; `indent expected` its expected this function `you have created function  or this class`
-you have created to have some sort of content before you `go head and do something` else so how can we `fix` this ? well  **if we actually realy want to leave this function 
-or this class empty** ✔ `we can use ## keyword pass ##` and all it does is it just passes it says i dont want to have a go right now just continue to the next line of code 
+if i just immediately wanted to print hello afterward  i get exactly the same error ; `indent expected` its expected this function `you have created function  or this class`you have created to have some sort of content before you `go head and do something` else so how can we `fix` this ? well  **if we actually realy want to leave this function or this class empty** ✔ `we can use ## keyword pass ##` and all it does is it just passes it says i dont want to have a go right now just continue to the next line of code 
 AND THIS GET RID OF OUR ERROR both in the function as well as  in our class declaration 
+
 ---
 ## constructor
 how do we `create attribute` for class
@@ -68,7 +67,8 @@ how can i `specify` all these starting piece of information when i create my obj
 in order to do this  we have to understand something called a ✔`constructor`   which is a `part of the blueprint` that `allow` us
 to `specify` what should happen when your object is being constructed this is also known in progaramming as `initializing` an object
 when the object is being initialized we can set variable or counter to they are starting value in python
-----------
+
+----
 ![constructor](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-17/image/set_attribute_constructor.png)
 ---------
 the way that we would create the `constructor` is by using a special function  which is the init function ✔✅✅📗
@@ -105,8 +105,8 @@ class User:
     def __init__(self, id, username,follower):
         self.id = id
         self.username = username
-         self.followers =follower
-user_1 = User("001", "Scarlett",0)
+         self.followers =follower #❌❌
+user_1 = User("001", "Scarlett",0)# ❌❌
 ```
 but it doesnt make sense for all attributes to be initialized when we actually create our object so if for example
 in our case👆👆so in python we can also `provide a default value`
@@ -117,7 +117,7 @@ class User:
     def __init__(self, id, username):
         self.id = id
         self.username = username
-        self.followers = 0
-user_1 = User("001", "Scarlett")
+        self.followers = 0 #✅
+user_1 = User("001", "Scarlett")✅
 
 ```
