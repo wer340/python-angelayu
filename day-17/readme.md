@@ -105,8 +105,8 @@ class User:
     def __init__(self, id, username,follower):
         self.id = id
         self.username = username
-         self.followers =follower #❌❌
-user_1 = User("001", "Scarlett",0)# ❌❌
+         self.followers =follower #❌
+user_1 = User("001", "Scarlett",0)# ❌
 ```
 but it doesnt make sense for all attributes to be initialized when we actually create our object so if for example
 in our case👆👆so in python we can also `provide a default value`
