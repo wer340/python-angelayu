@@ -8,10 +8,10 @@ will follow this and it will be
  when🔽 
 ```python
 class User:
-	pass	#THIS GET RID OF OUR ERROR
+		# ERROR
 user_1=User()
 def function():
-	pass #THIS GET RID OF OUR ERROR
+	 	# ERROR
 print("hello")
 ```
 🔼now we get an error here👆 because theres an `indent expected` so basically **python** `doesnt like` it when `you cereate` something like a class or 
@@ -21,7 +21,7 @@ class User:
 	pass	#THIS GET RID OF OUR ERROR
 user_1=User()
 def function():
-	pass #THIS GET RID OF OUR ERROR
+	pass    #THIS GET RID OF OUR ERROR
 print("hello")
 ```
 if i just immediately wanted to print hello afterward  i get exactly the same error ; `indent expected` its expected this function `you have created function  or this class`
