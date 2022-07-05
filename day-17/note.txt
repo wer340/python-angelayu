@@ -77,3 +77,12 @@ to always write zero  when you construct any object  user("002","Scarlett",0)
 so in python we can also provide a default value just as i have done here  inside ▶ init (self.follower=0)
 instead of setting it equal to one of the parameter thats being passed in when this class is being initialized  instead im just setting ut to a value
 which is zero    all attributes follower attributes equal zero
+4-----------
+create method
+method > does
+ first prameter of method self  it know the object that called it 
+self key word becom quite importaant when we are working with class and object it s way for us to refer to the object thats going to be created from this class
+inside class blueprint 
+5----
+qustion bank
+all select code    code menu  > auto indent 
