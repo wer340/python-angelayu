@@ -1,11 +1,11 @@
-from data import question_data
+from trivia import question_data
 from question_model import Question
 from quiz_brain import QuizBrain
 
 len = len(question_data)
 question_bank = []
-for item in question_data:
-    question_bank.append(Question(item["text"], item["answer"]))
+for item in question_data["results"]:
+    question_bank.append(Question(item["question"], item["correct_answer"]))
 
 quiz = QuizBrain(question_bank)
 
