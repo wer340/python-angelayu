@@ -10,9 +10,11 @@ class QuizBrain:
             f"Q.{self.question_number} - {current_q.text} :True/False :? ")
         return answer_q
 
-    def still_has_question(self, ask):
+    def check_answer(self, ask):
         if self.question_list[self.question_number - 1].answer == ask:
             print("You got it right!")
             return True
         else:
             return False
+    def still_has_question(self):
+        return self.question_number<len(self.question_list)
