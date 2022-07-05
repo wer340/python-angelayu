@@ -86,3 +86,4 @@ inside class blueprint
 5----
 qustion bank
 all select code    code menu  > auto indent 
+object in loop    for  name  should append to array
