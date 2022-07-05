@@ -1,5 +1,5 @@
 # 100day python Angela Yu ✅🌿
- [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
+
 ---
 ### IDE [`I`ntelligent `D`evelopment `E`nviroment] useful shortcut keyBoard
 |vscode|description|pycharm|description|
@@ -58,4 +58,5 @@ my_screen.exitonclick() #method
 timmy.forward(44)#method
 ```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
+##  [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
 ### fork it ❤   
