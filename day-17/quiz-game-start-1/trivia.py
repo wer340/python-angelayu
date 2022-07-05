@@ -1,4 +1,4 @@
-question_data = [{"response_code": 0, "results": [
+question_data =  [
     {"category": "Entertainment: Film", "type": "boolean",
      "difficulty": "easy",
      "question": "The movie &quot;The Nightmare before Christmas&quot; was all done with physical objects.",
@@ -38,4 +38,4 @@ question_data = [{"response_code": 0, "results": [
     {"category": "Entertainment: Film", "type": "boolean",
      "difficulty": "medium",
      "question": "The original ending of &quot;Little Shop Of Horrors&quot; has the plants taking over the world.",
-     "correct_answer": "True", "incorrect_answers": ["False"]}]}]
+     "correct_answer": "True", "incorrect_answers": ["False"]}]
