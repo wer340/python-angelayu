@@ -28,7 +28,7 @@ if i just immediately wanted to print hello afterward  i get exactly the same er
 you have created to have some sort of content before you `go head and do something` else so how can we `fix` this ? well  **if we actually realy want to leave this function 
 or this class empty** ✔ `we can use ## keyword pass ##` and all it does is it just passes it says i dont want to have a go right now just continue to the next line of code 
 AND THIS GET RID OF OUR ERROR both in the function as well as  in our class declaration 
---------------------
+---
 ## constructor
 how do we `create attribute` for class
 one of the easiest way of doing this is simply tapping into your object and then adding an attribute
@@ -88,9 +88,9 @@ user_1 = User("001", "Scarlett")
 ```
 inside this init function is where we `initialize` or `create` the starting vlaue for attributes 
 the important thing to remember is that the init function is going to be called every time you create a new object from this class
-===============
+---
 ![runeverytime](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-17/image/init_called.png)
-=============
+---
 ### remider : attribute  are the thing that the object will have and they are basically just `variables` that are associated with the final 
 ```python
 class User:
