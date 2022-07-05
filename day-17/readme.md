@@ -121,3 +121,14 @@ class User:
 user_1 = User("001", "Scarlett")✅
 
 ```
+## Method 
+method > does
+ first prameter of method self  it know the object that called it 
+self key word becom quite importaant when we are working with class and object it s way for us to refer to the object thats going to be created from this class
+inside class blueprint 
+![method](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-17/image/method.png)
+```python
+  def still_has_question(self):
+        return self.question_number<len(self.question_list) #expect True or False
+```
+## can fetch database from site [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
