@@ -26,5 +26,5 @@ print("hello")
 ```
 if i just immediately wanted to print hello afterward  i get exactly the same error ; `indent expected` its expected this function `you have created function  or this class`
 you have created to have some sort of content before you `go head and do something` else so how can we `fix` this ? well  **if we actually realy want to leave this function 
-or this class empty** ✔ `we can use keyword pass` and all it does is it just passes it says i dont want to have a go right now just continue to the next line of code 
+or this class empty** ✔ `we can use ## keyword pass ##` and all it does is it just passes it says i dont want to have a go right now just continue to the next line of code 
 AND THIS GET RID OF OUR ERROR both in the function as well as  in our class declaration 
