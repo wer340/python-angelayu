@@ -1,5 +1,5 @@
 # oop   create class
-+how actually class
++ how actually class
 ----------------------
 you have the `class keyword` followed by the name of your class and  then a semicolon and then all of the code thats in your class 
 will follow this and it will be
