@@ -16,7 +16,7 @@ first piece of fraagment create then sceen window
 3--
 4--
 from turtle imort *    avoid this way  community of python for not readable
-heros module✅✅✅✅
+heros module✅✅✅✅ produce random name for array 
 https://pypi.org/project/heroes/
 5-- 
 draw dash-line Drwaing state
@@ -35,5 +35,7 @@ https://www.w3schools.com/colors/colors_rgb.asp    rgb color
 timmy=turtle  timmy.colormode(255)
 tutle state >heading method  0.0   change method
 10---
-colorgram✔✔✔
+colorgram✔✔✔ extract color from image ✅✅✅✅
 https://pypi.org/project/colorgram.py/
+google search▶hirst spot painting
+
