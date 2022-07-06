@@ -18,3 +18,5 @@ first piece of fraagment create then sceen window
 from turtle imort *    avoid this way  community of python for not readable
 heros module
 https://pypi.org/project/heroes/
+5-- 
+draw dash-line Drwaing state
