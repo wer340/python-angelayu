@@ -58,8 +58,9 @@ print(color_rgb) #[(246, 242, 235), (247, 241, 244), (239, 242, 247), (237, 245,
 ```
 ## [rgb color ](https://www.w3schools.com/colors/colors_rgb.asp)
 -------
-![alias](https://user-images.githubusercontent.com/37295116/177574266-5c688fef-66a3-4fb1-8d5d-e8a1c451a1ec.png)
-# not use this way  is not readable  ❌❌❌☕
+# alias name for import module 
+![alias](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-18/image/alias_name.png)
+# not use this way  is not readable  🔽❌❌❌☕
 ![best](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-18/image/every_thing.png)
 
 ## module in python 
