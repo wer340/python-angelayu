@@ -1,0 +1,8 @@
+1---
+GUI
+2---
+turtle module graphic
+how do i know to do that? is it becaause iam super experienced i super clever  ?   not
+the way that programmers go about figuring out how  to use these modules or packages is through the ✅use of documention 
+way: when documention is long    search your subject in google +stackoverflow
+TK color specification string
