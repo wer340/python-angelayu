@@ -8,6 +8,7 @@ color_pantagon = ["chartreuse", "cyan", "chocolate", "coral", "blue",
 timmy = Turtle()
 screen = Screen()
 screen.bgcolor("black")
+timmy.shape("turtle")
 timmy.penup()
 timmy.left(90)
 timmy.forward(300)

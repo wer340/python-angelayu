@@ -20,3 +20,5 @@ heros module
 https://pypi.org/project/heroes/
 5-- 
 draw dash-line Drwaing state
+https://trinket.io/docs/colors
+setheading()random walk 
