@@ -45,16 +45,16 @@ list(my_tuple) #convert to list
 
 # [colorgram](https://pypi.org/project/colorgram.py/) module extract color from image
 ```python
-from PIL.Image import Image
-import colorgram_module
-colors=colorgram_module.extract("Image/colorgram.jpg",5)
-
+import colorgram
+colors=colorgram.extract("Image/colorgram.jpg",5)
+color_rgb=[]
 for color in colors:
     r=color.rgb.r    
     g=color.rgb.g
     b=color.rgb.b
     tuple_color=(r,g,b) 
-    color_rgb.append(tuple_color)
-print(color_rgb)
+    color_rgb.append(tuple_color)  
+print(color_rgb) #[(246, 242, 235), (247, 241, 244), (239, 242, 247), (237, 245, 240), (215, 148, 91)]
+```
 
 [rgb color ](https://www.w3schools.com/colors/colors_rgb.asp)
