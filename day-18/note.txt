@@ -22,3 +22,14 @@ https://pypi.org/project/heroes/
 draw dash-line Drwaing state
 https://trinket.io/docs/colors
 setheading()random walk 
+8--
+pencolor((r,g,b)) python tuple   (1,2,3)a data type  it has round brackets around it and then each of the item inside are aeparated by a comma
+doesnt it not look a like bit a list [1,2,3]   
+my_tuple=(1,2,3)   my_tuple[0]=1
+whats diffrence with list ?
+a tuple is going to be carved in stone 
+✅so you cant change the value like you can with list  ✔💎immutable
+why would you use of tuple  a constant list sort of list 
+convert to list   list(my_tuple)  
+https://www.w3schools.com/colors/colors_rgb.asp    rgb color
+timmy=turtle  timmy.colormode(255)

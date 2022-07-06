@@ -4,15 +4,18 @@ from random import choice,randint
 color_pantagon = ["chartreuse", "cyan", "chocolate", "coral", "blue",
                   "brown", "azure", "pink", "gold",
                   "linen", "purple", "yellow", "salmon", "tomato","wheat","peru","green",]
-angle=[0,90,270]
+direction=[0,90,180,270]
 timmy = Turtle()
 screen = Screen()
-timmy.shape("turtle")
-timmy.pensize(15)
-timmy.speed(0)
-for _ in range(200):
-    move=randint(10,30)
+timmy.pensize(20)
+timmy.speed(10)
+# “fastest”: 0
+# “fast”: 10
+# “normal”: 6
+# “slow”: 3
+# “slowest”: 1
+for _ in range(100):
     timmy.color(choice(color_pantagon))
-    timmy.forward(move)
-    timmy.left(choice(angle))
+    timmy.forward(30)
+    timmy.setheading(choice(direction))
 screen.exitonclick()
