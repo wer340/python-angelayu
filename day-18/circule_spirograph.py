@@ -11,10 +11,11 @@ def color_rand():
     g=randint(0,255)
     b=randint(0,255)
     return(r,g,b) #return tuple a data type of python  carved stone immutable
+def draw_spirograph(size_gap):
+    for _ in range(int(360/size_gap)):
+        timmy.color(color_rand())
+        timmy.circle(120)
+        timmy.setheading(timmy.heading()+size_gap)
 
-for angle in range(1,90):
-    timmy.color(color_rand())
-    timmy.circle(120)
-    timmy.left(angle*4)
-
+draw_spirograph(3)
 screen.exitonclick()
