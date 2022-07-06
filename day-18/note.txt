@@ -16,7 +16,7 @@ first piece of fraagment create then sceen window
 3--
 4--
 from turtle imort *    avoid this way  community of python for not readable
-heros module
+heros module✅✅✅✅
 https://pypi.org/project/heroes/
 5-- 
 draw dash-line Drwaing state
@@ -33,3 +33,7 @@ why would you use of tuple  a constant list sort of list
 convert to list   list(my_tuple)  
 https://www.w3schools.com/colors/colors_rgb.asp    rgb color
 timmy=turtle  timmy.colormode(255)
+tutle state >heading method  0.0   change method
+10---
+colorgram✔✔✔
+https://pypi.org/project/colorgram.py/
