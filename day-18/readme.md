@@ -56,5 +56,12 @@ for color in colors:
     color_rgb.append(tuple_color)  
 print(color_rgb) #[(246, 242, 235), (247, 241, 244), (239, 242, 247), (237, 245, 240), (215, 148, 91)]
 ```
+## [rgb color ](https://www.w3schools.com/colors/colors_rgb.asp)
+-------
+![alias](https://user-images.githubusercontent.com/37295116/177574266-5c688fef-66a3-4fb1-8d5d-e8a1c451a1ec.png)
+# not use this way  is not readable  ❌❌❌☕
+[best](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-18/image/every_thing.png)
 
-[rgb color ](https://www.w3schools.com/colors/colors_rgb.asp)
+## module in python 
+![module](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-18/image/module_py.png)
+)
