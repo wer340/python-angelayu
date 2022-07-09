@@ -32,7 +32,7 @@ screen.exitonclick()
 ```
 ## construct object from blueprint
 ![instance](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-19/images/each_object.png)
-✔it s reason have a blueprint   for constructing  many object 
+#### it s reason have a blueprint   for constructing  many object 
 each object is independt each other so in programming we would say that they are each a spararate `instance`
 
 ---
@@ -40,3 +40,5 @@ the fact that each of these object have **diffrent attributes and can be perform
 as **the state**
 
 ---
+# dimension
+![dimension](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-19/images/goto.png)
