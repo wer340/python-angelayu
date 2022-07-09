@@ -36,7 +36,9 @@ screen.exitonclick()
 each object is independt each other so in programming we would say that they are each a spararate `instance`
 
 ---
-the fact that each of these object have **diffrent attributes and can be performing different methods at any one time** in programming is known
+
+![state](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-19/images/state.png)
+##### the fact that each of these object have **diffrent attributes and can be performing different methods at any one time** in programming is known
 as **the state**
 
 ---
