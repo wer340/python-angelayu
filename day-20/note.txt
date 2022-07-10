@@ -1,0 +1,14 @@
+1---
+snake game    7 piece   break down
+
+3 part  day-20
+
+1-create snake body
+2-move snake
+3-control snake
+4-detect collision food
+5-create a scoreboard
+6-detect  collision with wall 
+7-detect collosion with tail
+
+
