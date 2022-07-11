@@ -21,7 +21,7 @@ while game_on:
     time.sleep(0.1)
     for sag in segment:
         sag.forward(20)
-
+    segment[0].left(90)
 
 
 
