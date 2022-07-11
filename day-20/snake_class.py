@@ -1,9 +1,7 @@
-from turtle import Turtle, Screen
-import time
-
+from turtle import Turtle
 STARTIG_POSITION = [(0, 0), (-20, 0), (-40, 0)]
-
-
+MOVE_DISTANCE=20
+# important note argument forward  be width of square that is know 20
 class Snake:
 
     def __init__(self):
@@ -18,13 +16,14 @@ class Snake:
             new_segment.color("white")
             new_segment.penup()
             new_segment.goto(position)
-            self.segment.append(new_segment)
+            self.segments.append(new_segment)
 
     def move(self):
-        for seg_num in range(len(self.segment) - 1, 0, -1):
-            new_x = self.segment[seg_num - 1].xcor()
-            new_y = self.segment[seg_num - 1].ycor()
-            self.segment[seg_num].goto(new_x, new_y)
+        for seg_num in range(len(self.segments) - 1, 0, -1):
+            new_x = self.segments[seg_num - 1].xcor()
+            new_y = self.segments[seg_num - 1].ycor()
+            self.segments[seg_num].goto(new_x, new_y)
+        self.segments[0].forward(MOVE_DISTANCE)
         # important note argument forward  be width of square that is know 20
 
 
