@@ -17,10 +17,11 @@ for position in starting_position:
 
 game_on=True
 while game_on:
+    screen.update()  # if comment this line even even though traacer(0)=off  screen freez
+    time.sleep(0.1)
     for sag in segment:
         sag.forward(20)
-        screen.update()#if comment this line even even though traacer(0)=off  screen freez
-        time.sleep(1)
+
 
 
 
