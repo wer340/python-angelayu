@@ -1,0 +1,15 @@
+1---
+class inheritance
+modify class and give more capability
+2--
+its process of inheriting behavior and appearance from an existing class is known as class inheritance 
+not only can inherit appearance but we can also inherit behavior 
+how can define
+class Fish(Animal):
+def __init__(self):
+	super().__init__()
+now in order to get fish class to inherit from another class all we have to do add a set of parentheses after the name of the class 
+and then in order to get a hold of everthing that an animal has is so its attributes and methods all we have to do is inside the init
+add this super().__init__()  and the super refer to the superclass  initial everything that the super class can do in our fish
+two part[(Animal),(super().__init__())] allow to inherte all atributes and methods
+what it allows us to do is to take an existing aclass that we have created 
