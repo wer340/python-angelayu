@@ -5,7 +5,7 @@ import time
 
 screen = Screen()
 snake = Snake()
-food=Food()
+food = Food()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("snake Game")
@@ -23,5 +23,7 @@ while game_on:
     screen.update()
     time.sleep(0.1)
     snake.move()
-
+    if snake.head.distance(
+            food) < 15:  # distance method measure distance between own instance with other instance inside prantess
+        print("wonderful")
 screen.exitonclick()
