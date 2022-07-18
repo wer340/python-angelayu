@@ -5,10 +5,10 @@ from scoreboard import ScoreBoard
 import time
 
 screen = Screen()
+screen.bgcolor("black")
 snake = Snake()
 food = Food()
 score_board = ScoreBoard()
-screen.bgcolor("black")
 screen.setup(width=600, height=600)
 screen.title("snake Game")
 screen.tracer(0)  # set it zero for turn off
