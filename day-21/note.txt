@@ -13,3 +13,6 @@ and then in order to get a hold of everthing that an animal has is so its attrib
 add this super().__init__()  and the super refer to the superclass  initial everything that the super class can do in our fish
 two part[(Animal),(super().__init__())] allow to inherte all atributes and methods
 what it allows us to do is to take an existing aclass that we have created 
+
+7--
+turtle.head.distance(other_instance)
