@@ -26,9 +26,20 @@ while game_on:
     screen.update()
     time.sleep(0.1)
     snake.move()
-    if snake.head.distance(
-            food) < 15:  # distance method measure distance between own instance with other instance inside prantess
+    if snake.head.distance(food) < 15:
+        # distance method measure distance between own instance with other instance inside prantess
         score_board.increase_score()
+        snake.extend()
         food.refresh()
-        print("wonderful")
+        print("wonderful")  # detect collision with wall
+    if snake.head.xcor() < -280 or snake.head.xcor() > 280 or snake.head.ycor() < -280 or snake.head.ycor() > 280:
+        game_on = False
+        score_board.game_over()
+    # detect collision with tail  # if any seg collision with each seg (tail) trigger game over
+    for segment in snake.segments:
+        if segment == snake.head:
+            pass
+        elif snake.head.distance(segment) < 10:
+            score_board.game_over()
+            game_on = False
 screen.exitonclick()
