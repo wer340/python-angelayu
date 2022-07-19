@@ -50,8 +50,8 @@ actress=['Mila Kunis', 'Jennifer Lawrence', 'Olivia Wilde', 'Nina Dobrev',
          'Evan Rachel Wood', 'Victoria Justice', 'Megan Fox', 'Blake Lively',
          'Amber Heard', 'Camilla Belle', 'Dianna Agron', 'Emma Watson']
 
-print(len(actress))
-print(actress[::3])
-print(actress[::-3])
-print(actress[6:])
+print(len(actress))  #expect  12
+print(actress[::3])  #expect  ['Mila Kunis', 'Nina Dobrev', 'Megan Fox', 'Camilla Belle']
+print(actress[::-3])  #expect ['Emma Watson', 'Amber Heard', 'Victoria Justice', 'Olivia Wilde']
+print(actress[6:])  #expect ['Megan Fox', 'Blake Lively', 'Amber Heard', 'Camilla Belle', 'Dianna Agron', 'Emma Watson']
 ```
