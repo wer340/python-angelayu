@@ -55,3 +55,7 @@ print(actress[::3])  #expect  ['Mila Kunis', 'Nina Dobrev', 'Megan Fox', 'Camill
 print(actress[::-3])  #expect ['Emma Watson', 'Amber Heard', 'Victoria Justice', 'Olivia Wilde']
 print(actress[6:])  #expect ['Megan Fox', 'Blake Lively', 'Amber Heard', 'Camilla Belle', 'Dianna Agron', 'Emma Watson']
 ```
+
+---
+# shift 
+![list](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-21/iamges/list.png)
