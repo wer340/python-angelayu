@@ -2,8 +2,9 @@
 
 ![snakeGame](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-21/iamges/breakpoint.png)
 
-## class inheritance
-modify class and give more capability
+## class inheritance modify class and give more capability
+
+---
 ![inherit](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-21/iamges/defInherit.png)
 its process of inheriting behavior and appearance from an existing class is known as class inheritance 
 not only can inherit appearance but we can also inherit behavior 
@@ -40,7 +41,9 @@ distance method measure distance between own instance till inastance given insid
 turtle.head.distance(other_instance)
 ```
 
-#slicing
+----
+
+# slicing
 ![slicing](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-21/iamges/slicinga.png)
 ```python
 actress=['Mila Kunis', 'Jennifer Lawrence', 'Olivia Wilde', 'Nina Dobrev',
