@@ -18,3 +18,10 @@ Turn turtle animation on/off and set delay for update drawings. If n is given, o
 regular screen update is really performed. (Can be used to accelerate the drawing of complex graphics.) When called without arguments, 
 screen.tracer(0) when animation of  screen freez  turtle.up
 screen.update()  this method update screen  otherwise have freez screen
+
+```python
+screen.tracer(0)
+#loop end  
+screen.update() # get resulte of loop  a screenshot  
+```
+
