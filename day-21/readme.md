@@ -1,4 +1,4 @@
-# snake gaame
+# snake game
 
 ![snakeGame](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-21/iamges/breakpoint.png)
 
