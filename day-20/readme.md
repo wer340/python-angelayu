@@ -1,13 +1,13 @@
 # snake game
 
 take break your project to small part ☕
-1-create snake body
-2-move snake
-3-control snake
-4-detect collision food
-5-create a scoreboard
-6-detect  collision with wall 
-7-detect collosion with tail
++ 1-create snake body
++ 2-move snake
++ 3-control snake
++ 4-detect collision food
++ 5-create a scoreboard
++ 6-detect  collision with wall 
++ 7-detect collosion with tail
 
 ### tracer
 
