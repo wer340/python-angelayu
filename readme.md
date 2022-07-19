@@ -57,6 +57,38 @@ my_screen.cancheight #object attribute  output value height
 my_screen.exitonclick() #method
 timmy.forward(44)#method
 ```
+---
+# class inheritance modify class and give more capability
+```python
+class Animal:
+    def __init__(self):
+        self.num_eye=2
+        self.num_feet=4
+    def breathe(self):
+        print("inhale and exhale ")
+class Fish(Animal):
+    def __init__(self):
+        super().__init__()
+        self.num_feet=0
+    def breathe(self):
+        super().breathe()
+        return "🌿🌿🌿🌿change origin method🌿🌿🌿🌿"
+nemo=Fish()
+print(f"num_feet = {nemo.num_feet} and method={nemo.breathe()}")
+```
+# slicing
+
+```python
+actress=['Mila Kunis', 'Jennifer Lawrence', 'Olivia Wilde', 'Nina Dobrev',
+         'Evan Rachel Wood', 'Victoria Justice', 'Megan Fox', 'Blake Lively',
+         'Amber Heard', 'Camilla Belle', 'Dianna Agron', 'Emma Watson']
+
+print(len(actress))  #expect  12
+print(actress[::3])  #expect  ['Mila Kunis', 'Nina Dobrev', 'Megan Fox', 'Camilla Belle']
+print(actress[::-3])  #expect ['Emma Watson', 'Amber Heard', 'Victoria Justice', 'Olivia Wilde']
+print(actress[6:])  #expect ['Megan Fox', 'Blake Lively', 'Amber Heard', 'Camilla Belle', 'Dianna Agron', 'Emma Watson']
+```
+---
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ##  [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
 ### fork it ❤   
