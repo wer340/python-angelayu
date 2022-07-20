@@ -1,4 +1,13 @@
 # pong game
+---
+
+### in high order function   callback func  given throuth pranthese term of callback✔  callback()❌
+```python
+#down() is method from paddle_a instance that given as callback func  without parentheses
+screen.onkey(paddle_a.down, "s")
+screen.listen()
+
+```
 
 ![pong](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-22/image/pong.png)
 
@@ -14,6 +23,7 @@
 # important issue
 
 ## diagnoal move 
+
 ```python 
  def move(self):  # diagonal move  y=x
         x_new = self.xcor() + self.x_move
@@ -36,3 +46,14 @@ def bounce_x(self):
  
  ## pedal detection
  use distance if was distance betwwen ball and pedaall lesser than 50 then active horizental back
+ 
+ ## scoreboard issue 
+notice self.goto pre define self.write() method
+
+```python
+class Scoeboaard(Turtle):
+    def __init__(self):
+        super().__init__()
+        self.goto(-40, 250)  #✔1️⃣ notice goto pre define write method
+        self.write(f"b :{self.b_score} a :{self.a_score} ",align=ALIGN, font=FONT)#✔2️⃣
+ ```       
