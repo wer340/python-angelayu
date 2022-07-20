@@ -1,0 +1,11 @@
+4---
+in high order function   callback func  given throuth pranthese term of callback✔  callback()❌
+
+5--
+ball
+for move term of  top right corner
+
+9---
+scoreboard
+
+notice self.goto pre define self.write() method

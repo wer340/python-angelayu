@@ -25,7 +25,7 @@ game_on = True
 
 while game_on:
     screen.update()
-    time.sleep(0.1)
+    time.sleep(ball.move_speed)
     ball.move()
     # detection vertical wall top and bottom
     if ball.ycor() > 280 or ball.ycor() < -280:
@@ -38,8 +38,12 @@ while game_on:
     # ball pass left and right side
     if ball.xcor() > 400:
         ball.position_reset()
-
+        # score b ++
+        scoreboard.b_score += 1
+        scoreboard.refresh()
     if ball.xcor() < -400:
         ball.position_reset()
         # score a ++
+        scoreboard.a_score += 1
+        scoreboard.refresh()
 screen.exitonclick()
