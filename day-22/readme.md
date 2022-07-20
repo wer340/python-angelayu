@@ -32,7 +32,7 @@ def bounce_y(self):
 def bounce_x(self):
         self.x_move *= -1
  ```
- [wall](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-22/image/detect_paddle_des.png)
+ ![wall](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-22/image/detect_paddle_des.png)
  
  ## pedal detection
  use distance if was distance betwwen ball and pedaall lesser than 50 then active horizental back
