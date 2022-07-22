@@ -8,7 +8,7 @@ we reset snake with    self.segments.clear()   again create snake  but  self.hea
 when object snake create this property init but when  self.segments.clear()  we loss it  so again rebuild 
 means  of  class snake  one time init   when we remove property init in during process but property not rebuilt except make new objec
 
-how savw highscore till store in app   return start game   highscore is showed
+how show highscore till store in app   return start game   highscore is showed
 3--
 open
 open.read
@@ -25,3 +25,17 @@ and free up those resources so instad  we are going to tell it to close down  th
 similar consept  alot lots lots of tab in chrome browser 
 write()  before open(mode="w")  deafult mode="r"   mode="a" append    \n new line
 if  doesnt exist with mode="w"   file created
+
+5--
+file dont just have a name  they also have apath or a way of getting to them   
+forward slash 
+absolute file path  start wit root     path relative with root ./file ~ file(shrten)   absolte path not change  every where  same 
+../ parent 
+
+one of pecularity about file path in windows  and mac  is that in mac each of folder are seprated by a /✅[forwardslash] whereas on windows
+they seprated by a \ ✅backslash  as you notice
+✔✔when we are writing python code we ✔dont care about that   we can just write it as /[forwaard slash] and making sure that we have the root
+which represents the c drive so thid entire part 
+https://www.w3schools.com/python/ref_file_readlines.asp
+https://www.w3schools.com/python/ref_string_strip.asp
+https://www.w3schools.com/python/ref_string_replace.asp
