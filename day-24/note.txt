@@ -2,3 +2,26 @@
 path and dictionary
  read and write file
 like a word  office   a use mechanizm  for store  data
+
+2-
+we reset snake with    self.segments.clear()   again create snake  but  self.head=self.segments[0] not initialze
+when object snake create this property init but when  self.segments.clear()  we loss it  so again rebuild 
+means  of  class snake  one time init   when we remove property init in during process but property not rebuilt except make new objec
+
+how savw highscore till store in app   return start game   highscore is showed
+3--
+open
+open.read
+open.close
+other way
+
+with open() as file :
+ident + read
+as soon as  we done   close the file
+
+why do you need close 
+once python open the file it basiclly take up some of resource of your copmuter at some point later on it might adecide to close it
+and free up those resources so instad  we are going to tell it to close down  the file manually this line of code
+similar consept  alot lots lots of tab in chrome browser 
+write()  before open(mode="w")  deafult mode="r"   mode="a" append    \n new line
+if  doesnt exist with mode="w"   file created
