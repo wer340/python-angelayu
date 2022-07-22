@@ -1,0 +1,4 @@
+1---
+path and dictionary
+ read and write file
+like a word  office   a use mechanizm  for store  data
