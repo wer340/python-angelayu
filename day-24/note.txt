@@ -39,3 +39,4 @@ which represents the c drive so thid entire part
 https://www.w3schools.com/python/ref_file_readlines.asp
 https://www.w3schools.com/python/ref_string_strip.asp
 https://www.w3schools.com/python/ref_string_replace.asp
+realine strip replace
