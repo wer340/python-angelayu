@@ -49,9 +49,9 @@ write()  before open(mode="w")  deafult mode="r"   mode="a
  
  # important ⛔⛔⛔⛔⛔
  ## one of pecularity about file path in windows  and mac  is that in mac each of folder are seprated by a `/`✅[forwardslash] whereas on windows
-they seprated by a `\` ✅backslash  as you notice
-⛔🕷when we are writing python code we ✅💎dont care about that   we can just write it as `/`[forward slash] and making sure that we have the root
-which represents the c drive so thid entire part 
+## they seprated by a `\` ✅backslash  as you notice
+## ⛔🕷when we are writing python code we ✅💎dont care about that   we can just write it as `/`[forward slash] and making sure that we have the root
+## which represents the c drive so thid entire part 
  ![win](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-24/images/pathwinmac.png)
 
 ----
