@@ -1,5 +1,5 @@
-import csv
+import pandas
 with open("./wheather_sheet.csv") as wheather:
-    data=csv.reader(wheather) #create object
-    for row in data:
-        print(row)
+    data=pandas.read_csv(wheather)
+
+    print(data["temp"])

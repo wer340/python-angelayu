@@ -7,5 +7,10 @@ csv  comma seprated value
 csv are a very common way of representing  taabula data like spreedsheet
  when open  csv  pretty painful to work with data  whic all string format seprated with commas
 take alot of cleaning to actually be able to extract each column
+['day,temp,codition\n', 'monday,12,sunny\n']
 python lang thats used realy heaavily for adata processing data analysis there s alot of great tools
 for working with tabula data
+▶import csv ✅ lib 
+csv number cant read  int   deafult string   
+this issue for  alot row and data  cause so much  faff
+pandas   lib ☕ super helpful super powerful data analysis 
