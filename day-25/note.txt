@@ -23,3 +23,8 @@ data frame kind of equivalent of your whole table here
 so every single sheet inside an excel file or inside a google sheet file would be considered a data frame
 series is baasicly equivalent to a list it s kind of a single column in your table 
 api refrence   datafraam▶ serialization-io-conversion 
+Computations / descriptive stats
+data.namecol✅ this way  avoid of mistake 
+data["aname_col"]✅
+how fetch a record  [row data]  data[day.day=="monday"]  return row
+⛔⛔filename  not name module⛔⛔⛔⛔⛔⛔⛔
