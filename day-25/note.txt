@@ -28,3 +28,10 @@ data.namecol✅ this way  avoid of mistake
 data["aname_col"]✅
 how fetch a record  [row data]  data[day.day=="monday"]  return row
 ⛔⛔filename  not name module⛔⛔⛔⛔⛔⛔⛔
+
+5-usa game
+turtle
+screen.addshape(image_adress)
+turtle.shape(image_adress)
+cordinate save term of string  pandas
+item() serias panda method  return value
