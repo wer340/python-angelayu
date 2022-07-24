@@ -14,3 +14,12 @@ for working with tabula data
 csv number cant read  int   deafult string   
 this issue for  alot row and data  cause so much  faff
 pandas   lib ☕ super helpful super powerful data analysis 
+install package 
+type csv object 
+type pandas <class 'pandas.core.frame.DataFrame'>
+data structure   2 way     series  and dataFrame
+data["temp"]   <class 'pandas.core.series.Series'>
+data frame kind of equivalent of your whole table here 
+so every single sheet inside an excel file or inside a google sheet file would be considered a data frame
+series is baasicly equivalent to a list it s kind of a single column in your table 
+api refrence   datafraam▶ serialization-io-conversion 
