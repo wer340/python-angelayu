@@ -40,4 +40,5 @@ https://www.w3schools.com/python/ref_file_readlines.asp
 https://www.w3schools.com/python/ref_string_strip.asp
 https://www.w3schools.com/python/ref_string_replace.asp
 realine strip replace
-file *   detail file
+file *   detail file  
+https://www.webatic.com/encoding-explorer     persian windows-1256
