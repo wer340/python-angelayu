@@ -1,4 +1,4 @@
-import pandas_effort
+import pandas
 import math
 with open("./wheather_sheet.csv") as wheather:
     data = pandas.read_csv(wheather)
