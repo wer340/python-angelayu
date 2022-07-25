@@ -1,0 +1,10 @@
+
+2---
+list comprehension thing   that  not have been seen other language
+less  write code ☕
+numbers=[num*2 for num in range(1,6)]
+
+conditional list comprehension
+new_list=[new_item for name in names if test]
+so the test in this case is we are checking to see if the test[length of the name is now greater than five]
+and if this name that we are currently looping through passes this test then we get to specify what the new item should be 
