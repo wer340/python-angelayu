@@ -41,9 +41,9 @@ with open("./wheather_sheet.csv") as wheather:
 ```
 
 # data structure   2 overall stracture     series  and dataFrame
-## data frame kind of equivalent of your `whole table` here 
-## so every single sheet inside an excel file or inside a google sheet file would be considered a data frame
-## series is baasicly equivalent to a list it s kind of a `single column` in your table 
+ data frame kind of equivalent of your `whole table` here 
+ so every single sheet inside an excel file or inside a google sheet file would be considered a data frame
+ series is baasicly equivalent to a list it s kind of a `single column` in your table 
 
 
 ---
@@ -55,4 +55,22 @@ with open("./wheather_sheet.csv") as wheather:
 ##  how fetch a record  [row data]  data[day.day=="monday"]  return row
 ⛔⛔filename  not name module  like `pandas.py`⛔⛔⛔⛔⛔⛔⛔
 
+# useful method pandas
+```python
+city_inf = data[data["state"] == answer] #get a row with this propert
+texter.write(city_inf.state.item()) # item() just return value 
+pd_aaverage=data["temp"].mean() #average column
+#create data frame
+dict_actress={
+ "name":["scarlett"], #value key termof []
+ "lName":["johansson"]#value key termof []
+}
+data=pandas.DataFrame(dict_actress)
+```
 
+# get cordinate from image
+```python
+def get_cordinate(x, y):
+    print(x, y)
+turtle.onscreenclick(get_cordinate) #to callback function is passed argumet x , y
+```
