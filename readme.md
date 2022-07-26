@@ -89,6 +89,15 @@ print(actress[::-3])  #expect ['Emma Watson', 'Amber Heard', 'Victoria Justice',
 print(actress[6:])  #expect ['Megan Fox', 'Blake Lively', 'Amber Heard', 'Camilla Belle', 'Dianna Agron', 'Emma Watson']
 ```
 ---
+
+# list and dict Comprehension   ☕☕✅💎
+```python
+names = ['Scarlett Johansson', 'Jennifer Lawrence', 'Emma Watson']           
+new_list=[name.replace(" ","_") for name in names if len(name)<15]     
+dict_names = {name: randint(1, 10) for name in names}  #sitution1️⃣list to dict 
+dict_best_students={name:score for (name,score) in dict_names.items() if score>3 } #sitution2️⃣dict to new dict
+# convert tuple for dict   in pandas moduls  data.iterrows(): 
+```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ##  [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
 ### fork it ❤   
