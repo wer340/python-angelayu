@@ -14,4 +14,4 @@ regex="\d{1,3}_|_" # | or digit or underscore
 new_list=[name.replace(regex,"") for name in names if len(name)<15]
 new_list2=[re.sub(regex," ",name).strip() for name in names if len(name)<15]
 new_list3=[ re.sub("\A|\Z","❤",name) for name in new_list2 ]
-print(new_list3)
+print(new_list2)

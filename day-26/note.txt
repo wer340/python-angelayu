@@ -8,3 +8,15 @@ conditional list comprehension
 new_list=[new_item for name in names if test]
 so the test in this case is we are checking to see if the test[length of the name is now greater than five]
 and if this name that we are currently looping through passes this test then we get to specify what the new item should be 
+
+7---
+comprehension dictionary
+https://www.w3schools.com/python/ref_dictionary_items.asp
+The items() method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.
+The view object will reflect any changes done to the dictionary, see example below.
+#notice convert tuple type so dict also convert to tuple
+dict_best_students={student:score for (student,score) in dict_students.items() if score>70   }
+#loop dictionary ☕   ▶for (key,value) in dict.items():
+pandas allow  loop through row of aa data frame  wit   iterrows()
+
+
