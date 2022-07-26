@@ -17,6 +17,6 @@ The view object will reflect any changes done to the dictionary, see example bel
 #notice convert tuple type so dict also convert to tuple
 dict_best_students={student:score for (student,score) in dict_students.items() if score>70   }
 #loop dictionary ☕   ▶for (key,value) in dict.items():
-pandas allow  loop through row of aa data frame  wit   iterrows()
+pandas allow  loop through row of aa data frame  with   iterrows() like items()
 
 
