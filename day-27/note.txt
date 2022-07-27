@@ -1,0 +1,34 @@
+1----
+tkinter
+
+2---
+Gaphical User Interfaace gui goiiiiiiiii spell
+lisa of apple  win 95 of  microsoft    both  stolen xerox parc   some people hire and work on gui
+
+pirate silicon vally move  1996
+3---
+pre install  tkinter
+windows=tkinter.Tk()  not happen❌
+it will go straight away to exit code zero and 
+the reason for this is because we need a way of keeping the windows on the screen
+what tkinter has done here is its gone ahead created athe window  sees that theres no more instructions
+and then it basically ended the program now we want instead is to sort of have while loop that basically
+just keep on runing so something like a while true and inside this while loop
+it holds on to this window and keeps on linsting to see if there anything else that the user is going to
+interact with that windows so that it can respond when that hapen 
+so this loop in tkinter  all you have to do is get your window to simply ✅call mainloop()
+mainloop bottom of project
+
+4---
+advanced python argument   that spicefy a wide range argument 
+if you have a argument 9 of 10 time a spcefy  ? dont want type argument 
+argument with deafult values define   def func(a=4,b=5)  run func()  ✅ if chaange arg  run func(b=10)✅
+6--
+unlimited arguments   
+i would have to add n1 n2 n3 n4 ,...
+but then i would have to add four number every single time so what if i wanted to make this function
+more flexible and to allow any number of argument to be used as the input well what i can do is to simply change the code 
+to use this ✔asterix[*] and then name of parameter  that name args is by convention 
+ 
+
+
