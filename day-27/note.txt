@@ -29,8 +29,14 @@ i would have to add n1 n2 n3 n4 ,...
 but then i would have to add four number every single time so what if i wanted to make this function
 more flexible and to allow any number of argument to be used as the input well what i can do is to simply change the code 
 to use this ✔asterix[*] and then name of parameter  that name args is by convention 
- unlimted posional argument    each arg collect  and put in tuple with position 
+ unlimted posional argument    each arg collect  and put in ✅tuple type with position 
 def add_sum(*args) add_sum(1,6,3,4) args[1]=6 args[3]=4
+7--
+if we want to define  for args a spicefic keyword 
+double astrix   key word args   (**kwargs)  return a  ✅dictionary type
+def sum(**kwargs):  sum(num1=12,num2=32)
+  for key,value in kwargs
 
-
-
+Tk   option implement with **kwargs 
+kw["name"]
+kw.get("name") >not error   give  none response 
