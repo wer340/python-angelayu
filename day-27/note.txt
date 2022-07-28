@@ -54,3 +54,4 @@ other widget just below the previous one   as i mention you can change this by a
 the problem with pack is that its actually quite difficult to specify a precise position 
 ✅✅thats why there not just a single layout manager but there lots of others 
 which is called ✔placed  💎place  is all about precise positioning  my_label.place(x=,y=)
+another method   grid    my_label.grid(column=,row=)

@@ -6,7 +6,7 @@ windows.title("first program")
 windows.config(padx=100,pady=200)
 my_label = tkinter.Label(text="I am a label ", font=("arial", 30))
 my_label.grid(column=1,row=4)  # side=left right
-
+#my_label.place(x=0,y=100)
 
 
 # Button Class
