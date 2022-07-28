@@ -46,6 +46,11 @@ list_dictionary={
 }
 list_dictionary["Angelina Jolie"]="Maleficent" #add record
 ```
+# calc
+```python
+number=12.23334343434
+number=round(number,3)
+```
 ### oop
 ```python
 from turtle import Turtle,Screen   #PascalCase   CodeCase 
