@@ -1,12 +1,21 @@
 import tkinter
 
-
-windows=tkinter.Tk()
-windows.minsize(width=600,height=400)
+windows = tkinter.Tk()
+windows.minsize(width=600, height=400)
 windows.title("first program")
 
-tinker=tkinter.Label(text="I am a label ",font=("arial",30))
-tinker.pack(side="bottom")#left right
+my_label = tkinter.Label(text="I am a label ", font=("arial", 30))
+my_label.pack()  # side=left right
+my_label["text"] = "Flower natherland"  # overwrite
+my_label.config(text="Germany")  # overwrite
 
 
+# Button Class
+def click_btn():
+    my_label["text"] = "car natherland"
+    print("click to me !")
+
+
+button = tkinter.Button(text="click Me ", command=click_btn)
+button.pack()
 windows.mainloop()

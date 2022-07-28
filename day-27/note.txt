@@ -40,3 +40,9 @@ def sum(**kwargs):  sum(num1=12,num2=32)
 Tk   option implement with **kwargs 
 kw["name"]
 kw.get("name") >not error   give  none response 
+9---
+Tk() class
+Label()class
+Button()class
+
+Button Class
