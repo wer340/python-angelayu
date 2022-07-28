@@ -1,4 +1,5 @@
 1----
+tcl.tk
 tkinter
 
 2---
@@ -44,5 +45,12 @@ kw.get("name") >not error   give  none response
 Tk() class
 Label()class
 Button()class
+ Entry() Class
 
-Button Class
+11---
+pack 
+widget next to each other in a vaguely logical format and by deafult pack will always start from the top and then pack every 
+other widget just below the previous one   as i mention you can change this by adding a side parameter and you can change it 
+the problem with pack is that its actually quite difficult to specify a precise position 
+✅✅thats why there not just a single layout manager but there lots of others 
+which is called ✔placed  💎place  is all about precise positioning  my_label.place(x=,y=)
