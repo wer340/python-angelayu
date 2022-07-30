@@ -1,0 +1,15 @@
+1---pamodor technic  bycilliri
+2--
+for put image in tkinter   with canvas widget
+it allows you to layer thing one on top of the others
+Canvas()
+PhotoImage()
+Canvas.create_image(*args=x,*args=y,[**args]image=file)
+
+bg  background color
+fg  foreground
+highlightthickness=0💎💎 remove border
+make countdown tk.after(milisecond,func,*arg)  *arg passed to func as argument
+
+make  00:00      if want a timer    number/60   and  number%60     but   cant make 05  
+💎✅for resolve this isuue dynamic typing in python  
