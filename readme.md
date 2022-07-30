@@ -103,6 +103,17 @@ dict_names = {name: randint(1, 10) for name in names}  #sitution1️⃣list to d
 dict_best_students={name:score for (name,score) in dict_names.items() if score>3 } #sitution2️⃣dict to new dict
 # convert tuple for dict   in pandas moduls  data.iterrows(): 
 ```
+
+---
+# unlimited args **kwargs  keyword
+```python
+def calculator(n,**kwargs): ##kwargs type = dict
+   n+=num.get("add")
+   n*=num["mutiply"]
+   return n
+print(calculator(3,add=8,mutiply=2)) 
+# *args  term of tuple 
+```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ##  [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
 ### fork it ❤   
