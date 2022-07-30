@@ -12,4 +12,7 @@ highlightthickness=0💎💎 remove border
 make countdown tk.after(milisecond,func,*arg)  *arg passed to func as argument
 
 make  00:00      if want a timer    number/60   and  number%60     but   cant make 05  
-💎✅for resolve this isuue dynamic typing in python  
+💎✅for re solve this isuue dynamic typing in python  
+change a variable data type by changing the content in that variable this is what know as dynamic typing
+a={int}4  ▶▶▶▶ a={str}"hello" 
+this is ❌not a feature thats availble in all programming languages for eample c java swift

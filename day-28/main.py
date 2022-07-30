@@ -1,4 +1,5 @@
 from tkinter import *
+import math
 
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
@@ -6,27 +7,46 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 25
-SHORT_BREAK_MIN = 5
+WORK_MIN = 0.1
+SHORT_BREAK_MIN = .15
 LONG_BREAK_MIN = 20
+reps = 0  # repetion
 
 
 # ---------------------------- TIMER RESET ------------------------------- #
 
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 def start_countdown():
-    countdown(5)
+    # first reps declare next line  reps work
+    global reps
+    reps+=1
+    work_min_sec = WORK_MIN * 60
+    short_break_min = SHORT_BREAK_MIN * 60
+    long_break_min = LONG_BREAK_MIN * 60
+    if reps%8==0:
+        countdown(long_break_min)
+        timer_l.config(fg=RED)
+    elif reps%2==0:
+        countdown(short_break_min)
+        timer_l.config(fg=PINK)
+    else:
+        countdown(work_min_sec)
+        timer_l.config(fg=GREEN)
 
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 
 def countdown(count):
     # for each item create by canv define a name till change wiyh itemconfig
-    canv.itemconfig(timer_text, text=count)
+    time_min = math.floor(count / 60)
+    time_sec = math.floor(count % 60)
+    if time_sec < 10:
+        time_sec = f"0{time_sec}"
+    canv.itemconfig(timer_text, text=f"{time_min}:{time_sec}")
     if count > 0:
         tk.after(1000, countdown, count - 1)
-
-
+    else:
+        start_countdown()
 # ---------------------------- UI SETUP ------------------------------- #
 
 
@@ -45,7 +65,8 @@ timer_text = canv.create_text(100, 113, text="00:00",
                               fill="white")
 canv.grid(row=2, column=2)
 
-start_b = Button(text="start", bg="white", highlightthickness=0,command=start_countdown)
+start_b = Button(text="start", bg="white", highlightthickness=0,
+                 command=start_countdown)
 start_b.grid(row=3, column=1)
 
 reset_b = Button(text="reset", bg="white", highlightthickness=0)
