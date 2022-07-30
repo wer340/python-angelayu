@@ -20,6 +20,7 @@ print(add_sum(3, 4, 6, 7, 8, 9, 4, 2, 1, 1, 4, 5, 6, 7, 88, 8, 8, 8, 8, 8))
  ```
  # unlimited arg with spicefy position 
   ✅dict    this double star a sign  for interpreter that get args  and put in dictionary collection
+  `n+=num.get("add")`  when use get method  if there isnt `add` arg python dont throw error   and reponse `undifiend`  but this way  `n*=num["mutiply"]` python throw error  
  ```python
  def calculator(n,**num): ##deafult name *kwargs  keyword args
     n+=num.get("add")
