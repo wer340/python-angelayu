@@ -22,7 +22,7 @@ Canvas()
 PhotoImage()
 Canvas.create_image(*args=x,*args=y,`**kwargs`▶image=file)
 
-# remindar
+# remindar about  global scope
 ```python
 reps=0
 def countdown():
