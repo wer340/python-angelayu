@@ -12,10 +12,14 @@ SHORT_BREAK_MIN = .15
 LONG_BREAK_MIN = 20
 reps = 0  # repetion
 timer=None
-
+timer_l=None
 # ---------------------------- TIMER RESET ------------------------------- #
 def reset_timer():
     tk.after_cancel(timer)
+    tick_l.config(text="")
+    canv.itemconfig(timer_text, text=f"00:00")
+    timer_l.config(text="Timer",fg=GREEN)
+
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 def start_countdown():
     # first reps declare next line  reps work
@@ -29,10 +33,11 @@ def start_countdown():
         timer_l.config(fg=RED)
     elif reps%2==0:
         countdown(short_break_min)
-        timer_l.config(fg=PINK)
+        timer_l.config(text="Break",fg=PINK)
+
     else:
         countdown(work_min_sec)
-        timer_l.config(fg=GREEN)
+        timer_l.config(text="Timer",fg=GREEN)
 
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
