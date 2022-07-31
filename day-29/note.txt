@@ -1,0 +1,7 @@
+1---
+password manager
+
+2---
+effbot.org/tkinterbook/canvas.htm
+3--
+for use 2 column as width of a column   use ✔💎columnspan
