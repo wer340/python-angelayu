@@ -114,6 +114,15 @@ def calculator(n,**kwargs): ##kwargs type = dict
 print(calculator(3,add=8,mutiply=2)) 
 # *args  term of tuple 
 ```
+---
+# dynamic typing
+change a variable data type by changing the content in that variable this is what know as dynamic typing
+`a={int}4`  ▶ `a={str}"hello"` 
+this is ❌  not a feature thats availble in all programming languages for eample c java swift
+```python
+bob = 1
+bob = "bob"
+```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ##  [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
 ### fork it ❤   
