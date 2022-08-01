@@ -23,6 +23,7 @@ pyperclip.copy(var_password)
 
 # map method python
 
+`str()` is a function   as callback function  other without parentheses
 ```python 
 list=[1,2,3,4,5,6]
 list_new=map(str,list)
