@@ -5,3 +5,9 @@ password manager
 effbot.org/tkinterbook/canvas.htm
 3--
 for use 2 column as width of a column   use ✔💎columnspan
+
+6---
+from tkinter import *     all class
+from tkinter import messagebox[not class]
+7---
+pyperclip module  copy automate

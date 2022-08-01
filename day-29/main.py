@@ -1,17 +1,40 @@
 from tkinter import *
-
-list_fill = []
-
+from tkinter import messagebox
+import random
+import pyperclip
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
-
+def password_produce():
+    letters=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'n', 'm', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x','y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'N', 'M', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    number=range(0,10)
+    symbols=["!","#","$","%","&","(",")","*","+"]
+    nr_letters=6
+    nr_symbol=2
+    nr_numbers=3
+    letters_final=[]
+    letters_final=[random.choice(letters) for _ in range(0,nr_letters)  ]
+    letters_final+=[random.choice(number) for item in range(0,nr_numbers)  ]# item not care
+    letters_final+=[random.choice(symbols) for item in range(0,nr_symbol)  ]
+    random.shuffle(letters_final)
+    return ''.join(map(str,letters_final))# use map  beacause  int convert to str
+def pass_gen():
+    password_i.delete(0,END)
+    password_i.insert(0,password_produce())
+    pyperclip.copy(password_i.get())
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_pass():
     website = website_i.get()
     email = email_i.get()
     password = password_i.get()
-    with open("./data-pass.txt", mode="a") as pass_list:
-        pass_list.write(f"{website}|{email}|{password}\n")
+    if website and email and password:
+        is_ok=messagebox.askokcancel(title=website,message=f"these are details entered : website:{website}\n Email:{email} \n Password : {password} \n is it ok for save ?")
+        if is_ok:
+            with open("./data-pass.txt", mode="a") as pass_list:
+                pass_list.write(f"{website}|{email}|{password}\n")
+                website_i.delete(0,END)
+                password_i.delete(0,END)
+    else:
+        messagebox.showinfo(title="warning" ,message="please maake sure havent left any field empty !")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -43,7 +66,7 @@ password_l.grid(row=3, column=0)
 password_i = Entry(width=21)
 password_i.grid(row=3, column=1, sticky="w", padx=10)
 password_i.focus()
-button_g = Button(text="Generate Password")
+button_g = Button(text="Generate Password",command=pass_gen)
 button_g.grid(row=3, column=2, sticky="w")
 
 add_b = Button(text="add", width=44,command=save_pass)
