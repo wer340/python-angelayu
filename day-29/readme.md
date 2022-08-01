@@ -20,3 +20,12 @@ after click into entry box  passworn  is been copy
 import pyperclip
 pyperclip.copy(var_password)
 ```
+
+# map method python
+
+```python 
+list=[1,2,3,4,5,6]
+list_new=map(str,list)
+string=''.join(list_new)
+```
+if array be int   join method  throw error
