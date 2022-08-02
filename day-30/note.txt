@@ -1,0 +1,13 @@
+1---
+json    and  promte password manager
+HandlingError & Eceptions
+
+2--
+not carry out ~not acomplish    ▶stumbling block it has not found 
+catch exception
+then it doesnt have to fail catastrophically
+four keyworl thats important for haandling exception
+try:  ▶something that acause an exception
+except: ▶Do this if there was an exception
+else:▶Do this if there were no exceptions
+finally:Do this no matter what happens
