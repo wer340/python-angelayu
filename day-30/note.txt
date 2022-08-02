@@ -11,3 +11,12 @@ try:  ▶something that acause an exception
 except: ▶Do this if there was an exception
 else:▶Do this if there were no exceptions
 finally:Do this no matter what happens
+
+3---
+raising exceptions
+raise keyword  this allows us to do is to raaise our own exceptions
+thrown a  error   made up  by yourself
+raise ValueError("human height should not be over 3 meter")
+4---
+try  first   add issue
+exceot  second   patch issue
