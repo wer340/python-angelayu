@@ -10,7 +10,12 @@
 
 ---
 ### type of variable
-
+list
+dict 
+string 
+int
+float
+tuple
 ```python
 def my_function():
   return[name]
@@ -29,6 +34,7 @@ def my_function():
 # python list 
 ```python
 fruits=[item1,item2]
+fruits_string=''.join(fruits)#whithout number if have number first  map(str,list)
 list.append(x) #add item
 fruits[-1]   #output=item2 if offset start last list
 str_inp = "Hello,from,AskPython"
