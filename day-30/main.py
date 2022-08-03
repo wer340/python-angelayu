@@ -5,6 +5,28 @@ import random
 import pyperclip
 
 
+# ----------------------------Search----------------------------------------------#
+
+def search():
+    website = website_i.get()
+    try:
+        with open("./data-pass.json") as passlist:
+            data = json.load(passlist)
+    except FileNotFoundError:
+        messagebox.showinfo(title="Error",message="no any data a for search")
+    else:
+        try:
+            record = data[website]
+        except KeyError:
+            messagebox.showinfo(title="Error",
+            message=f"⛔ dont exist '{website}'  password in password list")
+        else:
+            password = record["Password"]
+            email = record["Email"]
+            messagebox.showinfo(message=f"Email:   {email} \n Password :  {password} \n ")
+
+
+
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def password_produce():
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
@@ -51,11 +73,13 @@ def save_pass():
                     data.update(data_json)
             except FileNotFoundError:
                 with open("./data-pass.json", mode="w") as pass_list:
-                    json.dump(data_json,pass_list)
+                    json.dump(data_json, pass_list)
             else:
-                with open("./data-pass.json", mode="w") as pass_list_r:
+                with open("./data-pass.json",
+                          mode="w") as pass_list_r:
                     json.dump(data, pass_list_r, indent=4)
             finally:
+
                 website_i.delete(0, END)
                 password_i.delete(0, END)
     else:
@@ -76,9 +100,13 @@ canv.grid(row=0, column=1)
 website_l = Label(text="Website :")
 website_l.grid(row=1, column=0)
 
-website_i = Entry(width=52)
+website_i = Entry(width=42)
 website_i.grid(row=1, column=1, columnspan=2, sticky="w", padx=10)
 website_i.focus()
+
+search_b = Button(text="search", width=14, command=search)
+search_b.grid(row=1, column=2, sticky="w", padx=10)
+
 email_l = Label(text="Email/Useraname :")
 email_l.grid(row=2, column=0)
 
