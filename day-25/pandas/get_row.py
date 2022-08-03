@@ -1,5 +1,4 @@
-import pandas_effort
-
+import pandas
 with open("./wheather_sheet.csv") as wheather:
     data = pandas.read_csv(wheather)
     # get a row data  a little hard
