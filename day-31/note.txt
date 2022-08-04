@@ -3,3 +3,12 @@ https://support.google.com/docs/answer/3093331
 google sheet   copy paste      automate  identify
 =GOOGLETRANSLATE("Hello World","en","es")
 google sheet excellent✅
+
+reconfig
+canvas.itemconfig(word,text="")
+word=canvas.create_text(400, 263, text="Word", font=("Ariel", 60, "bold"))
+
+PhotoImage objects should not be created inside a function. Otherwise, it will not work.
+
+for delay then  do function 
+tk=Tk()  tk.after(milisecond,nameFunction)
