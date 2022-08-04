@@ -151,7 +151,7 @@ make_pie(4)
 # json
 
 ```python
-  with open("./data-pass.json", mode="r") as pass_list:
+with open("./data-pass.json", mode="r") as pass_list:
     data = json.load(pass_list)
     data.update(data_json)
 with open("./data-pass.json", mode="w") as pass_list:
