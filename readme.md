@@ -129,6 +129,36 @@ this is ❌  not a feature thats availble in all programming languages for eampl
 bob = 1
 bob = "bob"
 ```
+---
+# HandlingError & Eceptions
+try:  ▶something that acause an exception
+except: ▶Do this if there was an exception
+else:▶Do this if there were no exceptions
+finally:Do this no matter what happens
+```python
+fruits = ["Apple", "Pear", "Orange"]
+def make_pie(index):
+    try:
+        fruit = fruits[index]
+    except IndexError:
+          print(f"your index must be among 0 - {len(fruits)}\n fruit pie ")
+    else:
+         print(fruit + " pie")
+make_pie(4)
+```
+---
+
+# json
+
+```python
+  with open("./data-pass.json", mode="r") as pass_list:
+    data = json.load(pass_list)
+    data.update(data_json)
+with open("./data-pass.json", mode="w") as pass_list:
+    json.dump(data_json, pass_list)
+with open("./data-pass.json",mode="w") as pass_list_r:
+    json.dump(data, pass_list_r, indent=4)  #indent  for reaadable
+```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ##  [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
 ### fork it ❤   
