@@ -134,7 +134,7 @@ bob = "bob"
 try:  ▶something that acause an exception
 except: ▶Do this if there was an exception
 else:▶Do this if there were no exceptions
-finally:Do this no matter what happens
+finally:▶Do this no matter what happens
 ```python
 fruits = ["Apple", "Pear", "Orange"]
 def make_pie(index):
