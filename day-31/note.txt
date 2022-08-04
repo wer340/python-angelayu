@@ -1,0 +1,5 @@
+1---
+https://support.google.com/docs/answer/3093331
+google sheet   copy paste      automate  identify
+=GOOGLETRANSLATE("Hello World","en","es")
+google sheet excellent✅

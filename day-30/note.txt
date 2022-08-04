@@ -32,5 +32,4 @@ read > json.load(data_file)▶ mode="r"
 update > json.update() ▶mode="r"like append  1️⃣  first json load or json dump 2️⃣  then json update
 so essinsioly we can use json.dump and jsom.load to serialize and deserialiaze to python dictionaries
 and allows us that free interchange of information
-8-
-tyy bloc succeful  then else bolck execute
+8---
