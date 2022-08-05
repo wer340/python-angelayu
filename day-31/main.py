@@ -1,4 +1,6 @@
 from tkinter import *
+
+import pandas
 import pandas as pd
 import random
 import time
@@ -7,8 +9,16 @@ global word, flip_timer
 BACKGROUND_COLOR = "#B1DDC6"
 
 # TODO 2 csv to dict
-with open("./data/french_words.csv") as file:
-    dataframe = pd.read_csv(file)
+try:
+    with open("./data/french_english_to_learn.csv") as file:
+        dataframe = pd.read_csv(file)
+except FileNotFoundError:
+    with open("./data/french_words.csv") as file:
+        dataframe = pd.read_csv(file)
+        data = dataframe.to_dict(orient="records")
+
+
+else:
     data = dataframe.to_dict(orient="records")
 
 
@@ -22,13 +32,26 @@ def back_card():
 
 # TODO 3 generate word
 def random_word():
-    global word,flip_timer
-    tk.after_cancel(flip_timer) # for each time run function separately counted timer
+    global word, flip_timer
+    tk.after_cancel(
+        flip_timer)  # for each time run function separately counted timer
     word = random.choice(data)
-    canvas_t.itemconfig(card_image,image=front_image)
+    canvas_t.itemconfig(card_image, image=front_image)
     canvas_t.itemconfig(card_title, text="French")
     canvas_t.itemconfig(card_word, text=word["French"])
-    flip_timer=tk.after(3000,back_card) #run timer every next otherwise  back_card run first time
+    flip_timer = tk.after(3000,
+                          back_card)  # run timer every next otherwise  back_card run first time
+
+
+# TODO 5    remove correct word from suggestion list
+def is_correct():
+    data.remove(word)
+    print(len(data))
+    # index=false ▶not save 0 1 2 3
+    data_to_learn = pandas.DataFrame(data)
+    data_to_learn.to_csv("./data/french_english_to_learn.csv")
+    random_word()
+
 
 # TODO 1 make UI
 tk = Tk()
@@ -54,7 +77,7 @@ wrong_b.grid(row=1, column=0)
 
 correct_img = PhotoImage(file="./images/right.png")
 correct_b = Button(image=correct_img, highlightthickness=0,
-                   command=random_word)
+                   command=is_correct)
 correct_b.grid(row=1, column=1)
 
 random_word()
