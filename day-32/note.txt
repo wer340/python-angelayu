@@ -1,0 +1,36 @@
+1---
+email SMTP
+datatime
+3--
+how exactly email work 
+this email is going to  move between all of these step and in order to do this it relies on something acalled `SMTP`
+Simple Mail Transfer Protocol
+this contain all of the rules that determine how an email is received by mail server passed onto the next
+ mail server and how email email can be sent around the internet
+python have module smtp  allows send email for any adress
+name+@+EmailProvider
+connection=SMTP("smtp server") class gmail ▶smtp.gmail.com   yahoo smtp.email.yahoo.com
+
+TLS
+transport layer security 
+and it way of securing our connection to all email server
+thats waay when we aare sending an email if somebody else intercepts our email somewhere aalong the line and they try to read it  
+beacuse  this is enaabled that mesasage will be encrypted and it will be impossible for them to read what
+is in the content of our email   so this line basicly will make this connection secure  
+connection.starttls()
+connection.login(user,pass)  login to email provider
+connection.sendmail(from_addr= , to_addrs=,msg="")
+conection.close() 
+in setting aaccount gmail
+and
+two step pass off❌
+user your phone login off❌
+then  trun on less secure app✅
+important: use a new email  not use primary email adress
+
+how do work  email is sent  to mail box dont cosiderd a spam 
+msg argument ▶msg=subject:hello \n\n body content
+use with ...  as ...
+for automate close 
+
+with SMTP("smtp.gmail.com") as conecction: 
