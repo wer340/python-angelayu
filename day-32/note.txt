@@ -38,8 +38,9 @@ with SMTP("smtp.gmail.com") as conecction:
 datatime module
 dt.datetime(year,month,day)
 
-
-
+6---
+note key as tuple (month , day )
+ by this key identify  birthday person of list 
 8---
 how do you run code every day once time  
 https://www.pythonanywhere.com/
