@@ -51,8 +51,11 @@ python have module smtp  allows send email for any adress
 +two step pass off❌
 +user your phone login off❌
 +then  trun on less secure app✅
-
-
+## for new update Gmail   You need to generate an app [password for this. See](https://support.google.com/accounts/answer/185833?hl=en)
+```python
+import smtplib 
+connection = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+```
 ##  for re run program  every day for check day  use  [pythonanywhere](www.pythonanywhere.com)
 
 
