@@ -52,6 +52,10 @@ python have module smtp  allows send email for any adress
 +user your phone login off❌
 +then  trun on less secure app✅
 
+
+##  for re run program  every day for check day  use  [pythonanywhere](www.pythonanywhere.com)
+
+
 ----
 # Gmail
 ![gmail](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/aadjust_google_account.png)
@@ -60,4 +64,4 @@ python have module smtp  allows send email for any adress
 ![yahoo](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/yahomaillessSecure.png)
 
 
-# for re run program  every day for check day  use  [pythonanywhere](www.pythonanywhere.com)
+
