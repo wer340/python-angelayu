@@ -63,6 +63,8 @@ connection = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 # Gmail
 ![gmail](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/aadjust_google_account.png)
 
+# update Gmail
+! [newGmail](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/lessSecureApp.png)
 # Yahoo
 ![yahoo](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/yahomaillessSecure.png)
 
