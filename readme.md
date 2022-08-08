@@ -161,4 +161,5 @@ with open("./data-pass.json",mode="w") as pass_list_r:
 ```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
 ##  [TRIVIA](https://opentdb.com/) Free to use, user-contributed trivia question database.
+##  for re run program python  every day  use  [pythonanywhere](www.pythonanywhere.com) day-32
 ### fork it ❤   
