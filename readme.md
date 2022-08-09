@@ -31,6 +31,25 @@ def my_function():
 + **list.sort()** -- sorts the list in place (does **not return** it). (The sorted() function shown later is preferred.)
 + **list.reverse()** -- reverses the list in place (does **not return** it)
 + **list.pop(index)** -- removes and returns the element at the given index. **Returns** the rightmost element if index is omitted (roughly the opposite of append()).
+
+---
+# mutable  vs immutaable
++An object whose internal state cannot be changed is called **immutable** for example a number, a string, and a tuple.
++An object whose internal state can be changed is called **mutable** for example a list, a set, and a dictionary
+```python
+#mutable
+ratings = [1, 2, 3]
+print(hex(id(ratings)))# 0x1840f97a340
+ratings.append(4)
+print(ratings)  # [1, 2, 3, 4]
+print(hex(id(ratings)))# 0x1840f97a340
+#immutble
+counter = 100
+print(hex(id(100)))#0x7ffb62d32300
+counter = 200
+print(hex(id(counter))) #0x7ffb62d32f80
+```
+
 # python list 
 ```python
 fruits=[item1,item2]
