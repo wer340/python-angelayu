@@ -34,8 +34,8 @@ def my_function():
 
 ---
 # mutable  vs immutaable
-+An object whose internal state cannot be changed is called **immutable** for example a number, a string, and a tuple.
-+An object whose internal state can be changed is called **mutable** for example a list, a set, and a dictionary
++ An object whose internal state cannot be changed is called **immutable** for example a number, a string, and a tuple.
++ An object whose internal state can be changed is called **mutable** for example a list, a set, and a dictionary
 ```python
 #mutable
 ratings = [1, 2, 3]
