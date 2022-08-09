@@ -64,6 +64,9 @@ fruits[-1]   #output=item2 if offset start last list
 str_inp = "Hello,from,AskPython"
 op = str_inp.split(",")
 print(op)
+# using the enumerate() function to get index 
+for i, d in enumerate(fruits):
+    print (i, d)  #expect  0 item1    \n  1 item2
 ```
 # python  dictionary
 ```python
