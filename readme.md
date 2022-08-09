@@ -17,10 +17,14 @@ int
 float
 tuple
 ```python
-def my_function():
-  return[name]
- 
- print(type(my_function())
+myint = 5
+myfloat = 13.2
+mystr = "This is a string"
+mybool = True
+mylist = [0, 1, "two", 3.2, False]
+mytuple = (0, 1, 2)
+mydict = {"one" : 1, "two" : 2}
+print(type(mytuple)
  ```
 
 + **list.append(elem)** -- adds a single element to the end of the list. Common error: does **not return** the new list, just modifies the original.
