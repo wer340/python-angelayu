@@ -33,7 +33,7 @@ def my_function():
 + **list.pop(index)** -- removes and returns the element at the given index. **Returns** the rightmost element if index is omitted (roughly the opposite of append()).
 
 ---
-# mutable  vs immutaable
+# [mutable  vs immutaable](https://www.pythontutorial.net/advanced-python/python-mutable-and-immutable)
 + An object whose internal state cannot be changed is called **immutable** for example a number, a string, and a tuple.
 + An object whose internal state can be changed is called **mutable** for example a list, a set, and a dictionary
 ```python
