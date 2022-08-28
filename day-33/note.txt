@@ -28,3 +28,5 @@ response code
 3xx:Go away //you  dont actually have permisson 
 4xx: you screwed up  // the thing you are looking for doesnt  even exist 
 5xx:  i screwed up   // the server that you are making the request to screwed up  maybe server down ,..
+
+error handle by  requests module 
