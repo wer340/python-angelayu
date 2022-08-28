@@ -29,4 +29,12 @@ response code
 4xx: you screwed up  // the thing you are looking for doesnt  even exist 
 5xx:  i screwed up   // the server that you are making the request to screwed up  maybe server down ,..
 
-error handle by  requests module 
+4------
+error handle by  requests module `raise_for_status()`
+
+if you wanna see where that paticular latitude and longitude is on the world  map  we use  
+https://www.latlong.net/
+go to geographiv tools  Tab  and go lat and long  address  you can paste long and lat  and see where this aaposition
+
+5---------
+https://api.kanye.rest/
