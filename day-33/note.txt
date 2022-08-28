@@ -38,3 +38,8 @@ go to geographiv tools  Tab  and go lat and long  address  you can paste long an
 
 5---------
 https://api.kanye.rest/
+
+6---
+https://sunrise-sunset.org/api
+https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400
+lat lng  parameter thats required for run api
