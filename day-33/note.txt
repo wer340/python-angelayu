@@ -1,7 +1,7 @@
 1--- apllication programming interface API
 
 we are going to learn this teechnology so that we are able to create ISS tracker
-so this is the international spaace station and float high above in the sky and circles earth many many time a day 
+so this is the international space station and float high above in the sky and circles earth many many time a day 
 
 2--- 
 an API is a set of command functions protocols and objects that prograamer can use to create software or interact with an 
@@ -43,3 +43,4 @@ https://api.kanye.rest/
 https://sunrise-sunset.org/api
 https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400
 lat lng  parameter thats required for run api
+endpoint?parameter&parameter
