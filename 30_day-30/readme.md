@@ -52,9 +52,9 @@ print(f"your bmi is {bmi}")
 import json
 open(.json,mode="w")
 ```
-write > `json.dump(object,data_file(openjson),indent=4)` ▶mode="w" ✅indent for easy to read 
-read > `json.load(data_file)`▶ mode="r"
-update > `json.update() `▶mode="r"like append  1️⃣  first json load or json dump 2️⃣  then json update
-so essentioly we can use `json.dump` and `json.load` to serialize and deserialiaze to python dictionaries
-and allows us that free interchange of information
+write > `json.dump(object,data_file(openjson),indent=4)` ▶mode="w" ✅indent for easy to read \
+read > `json.load(data_file)`▶ mode="r"\
+update > `json.update() `▶mode="r"like append  1️⃣  first json load or json dump 2️⃣  then json update\
+so essentioly we can use `json.dump` and `json.load` to serialize and deserialiaze to python dictionaries\
+and allows us that free interchange of information\
 ![try](https://github.com/wer340/python-angelayu/blob/main/day-30/image/json.png?raw=true)
