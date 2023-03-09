@@ -2,11 +2,11 @@
 
 ## line of program instructions for the computer and dictionaries are really useful allow group together tag realated a piece of information
 
-![dictonary](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-9/image/dictonarya.png)
+![dictonary](https://raw.githubusercontent.com/wer340/python-angelayu/main/9_day-9/image/dictonarya.png)
 
 # best to do ✅first key at next line    
 
-![besttodo](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-9/image/besttodo.png)
+![besttodo](https://raw.githubusercontent.com/wer340/python-angelayu/main/9_day-9/image/besttodo.png)
 
 ```python
 #{key:value}  
