@@ -9,7 +9,7 @@
 
 # Email
  ### email = name+@+EmailProvider
-![smtp](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/emailwork2.png)
+![smtp](https://raw.githubusercontent.com/wer340/python-angelayu/main/32_day-32/image/emailwork2.png)
 
 ---
 ## how exactly email work 
@@ -61,17 +61,17 @@ connection = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 
 ----
 # Gmail
-![gmail](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/aadjust_google_account.png)
+![gmail](https://raw.githubusercontent.com/wer340/python-angelayu/main/32_day-32/image/aadjust_google_account.png)
 
 # update Gmail
-![newGmail](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/lessSecureApp.png)
+![newGmail](https://raw.githubusercontent.com/wer340/python-angelayu/main/32_day-32/image/lessSecureApp.png)
 # Yahoo
-![yahoo](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/yahomaillessSecure.png)
+![yahoo](https://raw.githubusercontent.com/wer340/python-angelayu/main/32_day-32/image/yahomaillessSecure.png)
 
 
 # python anywhere
 
-![anywhere1](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/anywhere1.png)
-![anywhere2](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/anywhere2.png)
-![anywhere3](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/anywhere3.png)
-![anywhere4](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-32/image/anywhere4.png)
+![anywhere1](https://raw.githubusercontent.com/wer340/python-angelayu/main/32_day-32/image/anywhere1.png)
+![anywhere2](https://raw.githubusercontent.com/wer340/python-angelayu/main/32_day-32/image/anywhere2.png)
+![anywhere3](https://raw.githubusercontent.com/wer340/python-angelayu/main/32_day-32/image/anywhere3.png)
+![anywhere4](https://raw.githubusercontent.com/wer340/python-angelayu/main/32_day-32/image/anywhere4.png)
