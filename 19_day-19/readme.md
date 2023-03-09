@@ -1,5 +1,5 @@
 # high order function
-![high order](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-19/images/high_order_func.png)
+![high order](https://raw.githubusercontent.com/wer340/python-angelayu/main/19_day-19/images/high_order_func.png)
 ```python
 def add(n1,n2):
     return n1+n2
@@ -31,16 +31,16 @@ screen.listen()
 screen.exitonclick()
 ```
 ## construct object from blueprint
-![instance](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-19/images/each_object.png)
+![instance](https://raw.githubusercontent.com/wer340/python-angelayu/main/19_day-19/images/each_object.png)
 #### it s reason have a blueprint   for constructing  many object 
 each object is independt each other so in programming we would say that they are each a spararate `instance`
 
 ---
 
-![state](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-19/images/state.png)
+![state](https://raw.githubusercontent.com/wer340/python-angelayu/main/19_day-19/images/state.png)
 ##### the fact that each of these object have **diffrent attributes and can be performing different methods at any one time** in programming is known
 as **the state**
 
 ---
 # dimension
-![dimension](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-19/images/goto.png)
+![dimension](https://raw.githubusercontent.com/wer340/python-angelayu/main/19_day-19/images/goto.png)
