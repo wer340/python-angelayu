@@ -50,7 +50,7 @@ list_actress.append({"Audrey Hepburn":["Breakfast at Tiffany's","Roman Holiday",
 print(list_actress[5])
 ```
 ## Python [Tutor](https://pythontutor.com/): Visualize code in Python, JavaScript, C, C++, and Java
-![data srtucture](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-9/image/Visualize%20png.png)
+![data srtucture](https://raw.githubusercontent.com/wer340/python-angelayu/main/09_day-9/image/Visualize%20png.png)
 
 ## how do we if don't knows keys and values analyze this {key:value} ✅✔solution for key in return
 ```python
