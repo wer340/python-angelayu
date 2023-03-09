@@ -26,13 +26,13 @@ else:
 ---
 ## analize flowchart then write down code
 
-![analize](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-11/image/aanalize.png)
+![analize](https://raw.githubusercontent.com/wer340/python-angelayu/main/11_day-11/image/aanalize.png)
 ---
 ---
 ---
 
 #flowchart
-![flowchart](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-11/image/flowchart.png)
+![flowchart](https://raw.githubusercontent.com/wer340/python-angelayu/main/11_day-11/image/flowchart.png)
 ---
 #code
-![code](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-11/image/code.png)
+![code](https://raw.githubusercontent.com/wer340/python-angelayu/main/11_day-11/image/code.png)
