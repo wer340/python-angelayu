@@ -3,7 +3,7 @@
 ----------------------
 you have the `class keyword` followed by the name of your class and  then a semicolon and then all of the code thats in your class 
 will follow this and it will be
-![class](https://github.com/wer340/python-angelayu/blob/main/day-17/image/class.png?raw=true)
+![class](https://github.com/wer340/python-angelayu/blob/main/17_day-17/image/class.png?raw=true)
 -------------
  when🔽 
 ```python
