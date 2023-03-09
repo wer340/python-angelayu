@@ -1,11 +1,11 @@
 # snake game
 
-![snakeGame](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-21/iamges/breakpoint.png)
+![snakeGame](https://raw.githubusercontent.com/wer340/python-angelayu/main/21_day-21/iamges/breakpoint.png)
 
 ## class inheritance modify class and give more capability
 
 ---
-![inherit](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-21/iamges/defInherit.png)
+![inherit](https://raw.githubusercontent.com/wer340/python-angelayu/main/21_day-21/iamges/defInherit.png)
 its process of inheriting behavior and appearance from an existing class is known as class inheritance 
 not only can inherit appearance but we can also inherit behavior 
 how can define
