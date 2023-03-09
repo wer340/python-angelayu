@@ -1,6 +1,6 @@
 # bug    and fix Bug
 
-![creator](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-13/image/buf_doc.png)
+![creator](https://raw.githubusercontent.com/wer340/python-angelayu/main/13_day-13/image/buf_doc.png)
 
 ###### first documented bug was actually found by this lady  `grace hopper`
 
