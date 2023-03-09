@@ -3,7 +3,7 @@
 ## in tkinter 
 for use 2 column as width of a column   use ✔💎columnspan
 
-![colspan](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-29/image/colspan.png)
+![colspan](https://raw.githubusercontent.com/wer340/python-angelayu/main/29_day-29/image/colspan.png)
 
 
 ---
