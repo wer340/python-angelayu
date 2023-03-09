@@ -7,10 +7,10 @@ def my_function():
   word="hello world"
  return word.title()
   ```
-![function first](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-10/image/outputaa_function.png)
+![function first](https://raw.githubusercontent.com/wer340/python-angelayu/main/10_day-10/image/outputaa_function.png)
 
 # docstring
-![docstring](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-10/image/docstring.png)
+![docstring](https://raw.githubusercontent.com/wer340/python-angelayu/main/10_day-10/image/docstring.png)
 ##### has to go as the first line after the declartion  thre qutation mark """a="string" """
 ```python
 def my_function():
