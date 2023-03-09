@@ -6,7 +6,7 @@ code complex   try to do manaage  try to do understand   whole of bunch code
 this style of programming is caalled ✅`procedural programming`  earliest paradigm of programming
 fortran cobol
 ---------------
-![history](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/aprocedural_programming.png)
+![history](https://raw.githubusercontent.com/wer340/python-angelayu/main/16_day-16/image/aprocedural_programming.png)
 ---------
 increase in the number of relationship  that we need to remember and manage 
 start making it look a bit `like` the dating `history of the kardashians`
@@ -33,16 +33,16 @@ def take_payment():
 
 ```
 ## attributes
-![attributes](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/attributes.png)
+![attributes](https://raw.githubusercontent.com/wer340/python-angelayu/main/16_day-16/image/attributes.png)
 ## methods 
-![methods](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/methods.png)
+![methods](https://raw.githubusercontent.com/wer340/python-angelayu/main/16_day-16/image/methods.png)
 --------
 its  data attached particular object   object have thing  aand  can do thing  essential  all of data particular module together into object  same thing
 ✅✅we can generate as many of these as  we want from the same ✔`blueprint`
 oop we call this `blueprint` or `this type  a class` we call these individual object that are generated from the blueprint an object
 how you use these class blueprint to create an actual  object
 ## blueprint
-![blueprint](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/paascalCase.png)
+![blueprint](https://raw.githubusercontent.com/wer340/python-angelayu/main/16_day-16/image/paascalCase.png)
 ------------
 `blueprint` which models a real-life    is known as the class
 this `class` that we can `genrate` as many `object` as we want create new object from aa blueprint 
@@ -61,7 +61,7 @@ from [turtle](https://docs.python.org/3/library/turtle.html) import Turtle ,scre
 this is actually object  printed  [turtle guide](https://docs.python.org/3/library/turtle.html)
 + [turtle color](https://cs111.wellesley.edu/labs/lab02/colors)
 + ## blueprint 
-  ![blueprint](https://github.com/wer340/python-angelayu/blob/main/day-16/image/blueprint.png)
+  ![blueprint](https://github.com/wer340/python-angelayu/blob/main/16_day-16/image/blueprint.png)
 
 ### apackage for creaing Ascii table 
 [prettytable](https://pypi.org/project/prettytable/0.7.2/)
@@ -87,5 +87,5 @@ Process finished with exit code 0
 
 
 ```
-![codecase](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-1/image/codeCasepng.png)
-![methods_see](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-16/image/methods_see.png)
+![codecase](https://raw.githubusercontent.com/wer340/python-angelayu/main/1_day-1/image/codeCasepng.png)
+![methods_see](https://raw.githubusercontent.com/wer340/python-angelayu/main/16_day-16/image/methods_see.png)
