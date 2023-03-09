@@ -1,7 +1,7 @@
 # iss position  
 we are going to learn this teechnology so that we are able to create ISS tracker
 so this is the international space station and float high above in the sky and circles earth many many time a day 
-![iss](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-33/image/33-iss.png)
+![iss](https://raw.githubusercontent.com/wer340/python-angelayu/main/33_day-33/image/33-iss.png)
 
 
 -----
