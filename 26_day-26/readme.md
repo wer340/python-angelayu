@@ -29,4 +29,4 @@ for (key,value) in data.iterrows():
     print(key)
     print(value.codition
 ```
-![panda](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-26/image/loopRows.png)
+![panda](https://raw.githubusercontent.com/wer340/python-angelayu/main/26_day-26/image/loopRows.png)
