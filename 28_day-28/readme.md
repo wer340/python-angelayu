@@ -1,6 +1,6 @@
 # The Pomodoro Technique Francesco Cirillo
 
-![pam](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-28/image/pamodr.png)
+![pam](https://raw.githubusercontent.com/wer340/python-angelayu/main/28_day-28/image/pamodr.png)
 
 # [dynamic typing ](https://stackoverflow.com/questions/11328920/is-python-strongly-typed)
 make  00:00      if want a timer    number/60   and  number%60     but   cant make 05  
