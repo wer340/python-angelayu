@@ -1,7 +1,7 @@
 # [tkinter](https://www.tcl.tk/man/tcl/TkCmd/pack.html)  and  deafult value *args **kwargs(keyword)
 Gaphical User Interfaace gui goiiiiiiiii 
 + history:lisa of apple  win 95 of  microsoft    both  stolen xerox parc   some people hire and work on gui
-![gui](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-27/images/gui.png)
+![gui](https://raw.githubusercontent.com/wer340/python-angelayu/main/27_day-27/images/gui.png)
 # deafult value 
 if parameter not set  deaafult value select 
 ```python
@@ -30,7 +30,7 @@ print(calculator(3,add=8,mutiply=2))
 ```
 ----
 # tkinter
-![catalog](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-27/images/tkinter_catlog.png)
+![catalog](https://raw.githubusercontent.com/wer340/python-angelayu/main/27_day-27/images/tkinter_catlog.png)
 
 ---
 pre install  tkinter
