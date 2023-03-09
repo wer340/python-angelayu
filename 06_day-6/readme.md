@@ -14,4 +14,4 @@ def my_function():
   print("hello")
 print("hello world")
 ```
-![block of code](https://raw.githubusercontent.com/wer340/python-angelayu/main/day-6/blockofcode.png)
+![block of code](https://raw.githubusercontent.com/wer340/python-angelayu/main/06_day-6/blockofcode.png)
