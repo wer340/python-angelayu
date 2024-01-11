@@ -6,7 +6,7 @@
 |------------|-----------|------------|-----------|
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Arrow</kbd> key|copy line|<kbd>Alt</kbd>+<kbd>shift</kbd>▶then drag down|some cursor creaate for type same thing|
 |<kbd>Ctrl</kbd>+<kbd>]</kbd> and <kbd>Ctrl</kbd>+[|adjust indent|<kbd>Command</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd> and [Wrapping and Braces](https://stackoverflow.com/questions/57302273/how-to-split-one-very-long-line-in-pycharm-into-multiple-lines)|break long line|
-|<kbd>Alt</kbd>+<kbd>z</kbd>|break long line|<kbd>Alt</kbd>+enter|reformat code|
+|<kbd>Alt</kbd>+<kbd>z</kbd>|break long line|<kbd>Alt</kbd>+<kbd>enter</kbd>|reformat code|
 
 ---
 ### type of variable
